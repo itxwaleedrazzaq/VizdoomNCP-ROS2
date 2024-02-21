@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+9fc57c69235200943ca8adfb9bd9496b bin/vizdoom.pk3
+6386df8d760a32665c31cd02ec45a466 src/vizdoom/gdtoa/arith.h
+fd2486121f84028e3214dd1ebda9fb8d src/vizdoom/gdtoa/gd_qnan.h
+b58db00b0b22cf5fe5a2c249f6066777 src/vizdoom/src/CMakeFiles/zdoom.dir/asm_x86_64/tmap3.o
+e9e0ceaae42806b1e29593ed93c6e49e src/vizdoom/src/sc_man_scanner.h
+8fb66d9952923b410d2a2c6f29ef248a src/vizdoom/src/xlat_parser.c
+05bb795a9c2c72d1c99736c563e24304 src/vizdoom/wadsrc/CMakeFiles/pk3

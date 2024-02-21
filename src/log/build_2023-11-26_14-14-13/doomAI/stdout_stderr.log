@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing doomAI.egg-info/PKG-INFO
+writing dependency_links to doomAI.egg-info/dependency_links.txt
+writing entry points to doomAI.egg-info/entry_points.txt
+writing requirements to doomAI.egg-info/requires.txt
+writing top-level names to doomAI.egg-info/top_level.txt
+reading manifest file 'doomAI.egg-info/SOURCES.txt'
+writing manifest file 'doomAI.egg-info/SOURCES.txt'
+error: can't copy 'doomAI/scripts/': doesn't exist or not a regular file
+running build_ext
+Creating /home/waleed/mypractice/doomncp/src/install/doomAI/lib/python3.8/site-packages/doomAI.egg-link (link to .)
+Installing vizai_node script to /home/waleed/mypractice/doomncp/src/install/doomAI/lib/doomAI
+Installing vizsim_node script to /home/waleed/mypractice/doomncp/src/install/doomAI/lib/doomAI
+
+Installed /home/waleed/mypractice/doomncp/src/build/doomAI
+running install_data
+creating /home/waleed/mypractice/doomncp/src/install/doomAI/doomAI

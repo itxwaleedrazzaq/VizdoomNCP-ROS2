@@ -1,0 +1,19 @@
+[19.411s] Invoking command in '/home/waleed/mypractice/doomncp/src/build/doomAI': AMENT_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waleed/mypractice/doomncp/src/build/doomAI/prefix_override:/home/waleed/mypractice/doomncp/src/install/doomAI/lib/python3.8/site-packages:/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/waleed/mypractice/doomncp/src/build/doomAI/build --no-deps install_data
+[22.932s] running develop
+[23.985s] running egg_info
+[23.986s] writing doomAI.egg-info/PKG-INFO
+[23.986s] writing dependency_links to doomAI.egg-info/dependency_links.txt
+[23.987s] writing entry points to doomAI.egg-info/entry_points.txt
+[23.987s] writing requirements to doomAI.egg-info/requires.txt
+[23.987s] writing top-level names to doomAI.egg-info/top_level.txt
+[23.992s] reading manifest file 'doomAI.egg-info/SOURCES.txt'
+[23.994s] writing manifest file 'doomAI.egg-info/SOURCES.txt'
+[24.012s] running build_ext
+[24.012s] Creating /home/waleed/mypractice/doomncp/src/install/doomAI/lib/python3.8/site-packages/doomAI.egg-link (link to .)
+[24.014s] Installing vizai_node script to /home/waleed/mypractice/doomncp/src/install/doomAI/lib/doomAI
+[24.014s] Installing vizsim_node script to /home/waleed/mypractice/doomncp/src/install/doomAI/lib/doomAI
+[24.016s] 
+[24.016s] Installed /home/waleed/mypractice/doomncp/src/build/doomAI
+[24.017s] running install_data
+[24.017s] error: can't copy 'vizgym': doesn't exist or not a regular file
+[24.072s] Invoked command in '/home/waleed/mypractice/doomncp/src/build/doomAI' returned '1': AMENT_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waleed/mypractice/doomncp/src/build/doomAI/prefix_override:/home/waleed/mypractice/doomncp/src/install/doomAI/lib/python3.8/site-packages:/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/waleed/mypractice/doomncp/src/build/doomAI/build --no-deps install_data

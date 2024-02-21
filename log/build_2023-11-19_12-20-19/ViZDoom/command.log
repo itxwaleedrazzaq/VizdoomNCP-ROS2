@@ -1,0 +1,4 @@
+Invoking command in '/home/waleed/mypractice/doomncp/build/ViZDoom': /home/waleed/.local/bin/cmake /home/waleed/mypractice/doomncp/src/ViZDoom -DCMAKE_INSTALL_PREFIX=/home/waleed/mypractice/doomncp/install/ViZDoom
+Invoked command in '/home/waleed/mypractice/doomncp/build/ViZDoom' returned '0': /home/waleed/.local/bin/cmake /home/waleed/mypractice/doomncp/src/ViZDoom -DCMAKE_INSTALL_PREFIX=/home/waleed/mypractice/doomncp/install/ViZDoom
+Invoking command in '/home/waleed/mypractice/doomncp/build/ViZDoom': /home/waleed/.local/bin/cmake --build /home/waleed/mypractice/doomncp/build/ViZDoom -- -j6 -l6
+Invoked command in '/home/waleed/mypractice/doomncp/build/ViZDoom' returned '0': /home/waleed/.local/bin/cmake --build /home/waleed/mypractice/doomncp/build/ViZDoom -- -j6 -l6

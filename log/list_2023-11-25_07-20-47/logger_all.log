@@ -1,0 +1,147 @@
+[11.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/waleed/mypractice/doomncp']
+[11.130s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/waleed/mypractice/doomncp'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f03f229b610>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f03f229b610>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f03f222e430>)
+[11.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.725s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/waleed/mypractice/doomncp'
+[11.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['ignore', 'ignore_ament_install']
+[11.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'ignore'
+[11.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'ignore_ament_install'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['colcon_pkg']
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'colcon_pkg'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['colcon_meta']
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'colcon_meta'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['ros']
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'ros'
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['cmake', 'python']
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'cmake'
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'python'
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extensions ['python_setup_py']
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp) by extension 'python_setup_py'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['ignore', 'ignore_ament_install']
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'ignore'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'ignore_ament_install'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['colcon_pkg']
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'colcon_pkg'
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['colcon_meta']
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'colcon_meta'
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['ros']
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'ros'
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['cmake', 'python']
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'cmake'
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'python'
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extensions ['python_setup_py']
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/_vizdoom) by extension 'python_setup_py'
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/build) by extensions ['ignore', 'ignore_ament_install']
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/build) by extension 'ignore'
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/build) ignored
+[11.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/install) by extensions ['ignore', 'ignore_ament_install']
+[11.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/install) by extension 'ignore'
+[11.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/install) ignored
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/log) by extensions ['ignore', 'ignore_ament_install']
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/log) by extension 'ignore'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/log) ignored
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['ignore', 'ignore_ament_install']
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'ignore'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'ignore_ament_install'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['colcon_pkg']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'colcon_pkg'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['colcon_meta']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'colcon_meta'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['ros']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'ros'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['cmake', 'python']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'cmake'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'python'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extensions ['python_setup_py']
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src) by extension 'python_setup_py'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['ignore', 'ignore_ament_install']
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'ignore'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'ignore_ament_install'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['colcon_pkg']
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'colcon_pkg'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['colcon_meta']
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'colcon_meta'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['ros']
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'ros'
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['cmake', 'python']
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'cmake'
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'python'
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extensions ['python_setup_py']
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/_vizdoom) by extension 'python_setup_py'
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/build) by extensions ['ignore', 'ignore_ament_install']
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/build) by extension 'ignore'
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/build) ignored
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extensions ['ignore', 'ignore_ament_install']
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extension 'ignore'
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extension 'ignore_ament_install'
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extensions ['colcon_pkg']
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extension 'colcon_pkg'
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extensions ['colcon_meta']
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extension 'colcon_meta'
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extensions ['ros']
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/doomAI) by extension 'ros'
+[11.801s] DEBUG:colcon.colcon_core.package_identification:Package '/home/waleed/mypractice/doomncp/src/doomAI' with type 'ros.ament_python' and name 'doomAI'
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/install) by extensions ['ignore', 'ignore_ament_install']
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/install) by extension 'ignore'
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/install) ignored
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/log) by extensions ['ignore', 'ignore_ament_install']
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/log) by extension 'ignore'
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/log) ignored
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'ignore'
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'ignore_ament_install'
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['colcon_pkg']
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'colcon_pkg'
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['colcon_meta']
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'colcon_meta'
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['ros']
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'ros'
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['cmake', 'python']
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'cmake'
+[11.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'python'
+[11.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extensions ['python_setup_py']
+[11.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv) by extension 'python_setup_py'
+[11.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[11.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extension 'ignore'
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extensions ['ros']
+[11.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge) by extension 'ros'
+[11.810s] DEBUG:colcon.colcon_core.package_identification:Package '/home/waleed/mypractice/doomncp/src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[11.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extension 'ignore'
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extensions ['ros']
+[11.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry) by extension 'ros'
+[11.813s] DEBUG:colcon.colcon_core.package_identification:Package '/home/waleed/mypractice/doomncp/src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[11.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[11.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extension 'ignore'
+[11.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[11.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[11.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[11.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[11.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[11.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extensions ['ros']
+[11.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests) by extension 'ros'
+[11.817s] DEBUG:colcon.colcon_core.package_identification:Package '/home/waleed/mypractice/doomncp/src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[11.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[11.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extension 'ignore'
+[11.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extensions ['ros']
+[11.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv) by extension 'ros'
+[11.820s] DEBUG:colcon.colcon_core.package_identification:Package '/home/waleed/mypractice/doomncp/src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

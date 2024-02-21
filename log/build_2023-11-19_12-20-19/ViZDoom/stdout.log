@@ -1,0 +1,1218 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.0") found components: filesystem thread system date_time chrono regex iostreams 
+-- Found Threads: TRUE  
+-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.8") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+-- Could NOT find GME (missing: GME_INCLUDE_DIR) 
+-- Using system zlib
+-- Using system jpeg library
+-- Using system bzip2 library
+-- Using internal gme library
+-- Performing Test HAVE_NO_ARRAY_BOUNDS
+-- Performing Test HAVE_NO_ARRAY_BOUNDS - Success
+-- Performing Test __LIBGME_TEST_VISIBILITY
+-- Performing Test __LIBGME_TEST_VISIBILITY - Success
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- /usr/include
+-- /usr/include
+-- /home/waleed/mypractice/doomncp/src/ViZDoom/src/vizdoom/lzma/C
+-- Looking for itoa
+-- Looking for itoa - not found
+-- Performing Test DUMB_CAN_USE_SSE
+-- Performing Test DUMB_CAN_USE_SSE - Success
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'gtk+-2.0'
+--   Found gtk+-2.0, version 2.24.32
+-- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread  
+-- Found OpenAL: /usr/lib/x86_64-linux-gnu/libopenal.so  
+-- Could not find FMOD include files
+-- Could NOT find SndFile (missing: SNDFILE_LIBRARY SNDFILE_INCLUDE_DIR) 
+-- Could NOT find MPG123 (missing: MPG123_LIBRARIES MPG123_INCLUDE_DIR) 
+-- Found FluidSynth: /usr/lib/x86_64-linux-gnu/libfluidsynth.so  
+-- Selected assembler: /usr/bin/as
+-- Looking for filelength
+-- Looking for filelength - not found
+-- Looking for strupr
+-- Looking for strupr - not found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for strnicmp
+-- Looking for strnicmp - not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Performing Test HAS_VA_COPY
+-- Performing Test HAS_VA_COPY - Success
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system date_time chrono 
+-- Fluid synth libs: /usr/lib/x86_64-linux-gnu/libfluidsynth.so
+-- Configuring done (22.4s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/waleed/mypractice/doomncp/build/ViZDoom
+[  1%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomConfigLoader.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomConfigLoader.cpp.o[0m
+[  1%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zArcIn.c.o[0m
+[  2%] [32mBuilding C object src/vizdoom/tools/lemon/CMakeFiles/lemon.dir/lemon.c.o[0m
+[  3%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/actions.cc.o[0m
+[  3%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Blip_Buffer.cpp.o[0m
+[  3%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Classic_Emu.cpp.o[0m
+[  3%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Data_Reader.cpp.o[0m
+[  3%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Dual_Resampler.cpp.o[0m
+[  4%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zBuf.c.o[0m
+[  5%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Effects_Buffer.cpp.o[0m
+[  5%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zCrc.c.o[0m
+[  5%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zCrcOpt.c.o[0m
+[  5%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zDec.c.o[0m
+[  5%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/code.cc.o[0m
+[  5%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/7zStream.c.o[0m
+[  5%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Fir_Resampler.cpp.o[0m
+[  5%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Bcj2.c.o[0m
+[  6%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Bra.c.o[0m
+[  6%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/gme.cpp.o[0m
+[  6%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Bra86.c.o[0m
+[  6%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gme_File.cpp.o[0m
+[  6%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/BraIA64.c.o[0m
+[  6%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/CpuArch.c.o[0m
+[  6%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/M3u_Playlist.cpp.o[0m
+[  6%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Delta.c.o[0m
+[  6%] [32m[1mLinking C executable ../../../../bin/lemon[0m
+/home/waleed/mypractice/doomncp/build/ViZDoom/bin
+[  6%] Built target lemon
+[  7%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/LzFind.c.o[0m
+[  7%] [32mBuilding C object src/vizdoom/tools/updaterevision/CMakeFiles/updaterevision.dir/updaterevision.c.o[0m
+[  8%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Multi_Buffer.cpp.o[0m
+[  9%] [32m[1mLinking C executable ../../../../bin/updaterevision[0m
+[  9%] Built target updaterevision
+[  9%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Music_Emu.cpp.o[0m
+[  9%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/unload.c.o[0m
+[  9%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Lzma2Dec.c.o[0m
+[  9%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/rendsig.c.o[0m
+[  9%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/rendduh.c.o[0m
+[  9%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/LzmaDec.c.o[0m
+[ 10%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/register.c.o[0m
+[ 10%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Ay_Apu.cpp.o[0m
+[ 10%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/readduh.c.o[0m
+[ 10%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/rawsig.c.o[0m
+[ 10%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Ym2612_Emu.cpp.o[0m
+[ 10%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/makeduh.c.o[0m
+[ 10%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/loadduh.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/dumbfile.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/LzmaEnc.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/duhtag.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/duhlen.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/core/atexit.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/stdfile.c.o[0m
+[ 11%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/silence.c.o[0m
+[ 12%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/sampbuf.c.o[0m
+[ 12%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/riff.c.o[0m
+[ 12%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/resample.c.o[0m
+[ 12%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/dfa.cc.o[0m
+[ 12%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Sms_Apu.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomController.cpp.o[0m
+[ 12%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Ppmd7.c.o[0m
+[ 13%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Ay_Cpu.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomController.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/main.cc.o[0m
+[ 13%] [32mBuilding C object src/vizdoom/lzma/CMakeFiles/lzma.dir/C/Ppmd7Dec.c.o[0m
+[ 13%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Ay_Emu.cpp.o[0m
+[ 14%] [32m[1mLinking C static library liblzma.a[0m
+[ 14%] Built target lzma
+[ 14%] [32mBuilding C object src/vizdoom/gdtoa/CMakeFiles/arithchk.dir/arithchk.c.o[0m
+[ 14%] [32m[1mLinking C executable ../../../bin/arithchk[0m
+[ 14%] Built target arithchk
+[ 14%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gb_Apu.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gb_Cpu.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gb_Oscs.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gbs_Emu.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Gym_Emu.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Hes_Apu.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/mbo_getopt.cc.o[0m
+[ 15%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Hes_Cpu.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/parser.cc.o[0m
+[ 16%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Hes_Emu.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Kss_Cpu.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Kss_Emu.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/scanner.cc.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Kss_Scc_Apu.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Apu.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Cpu.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Fme7_Apu.cpp.o[0m
+[ 17%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/memfile.c.o[0m
+[ 17%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Namco_Apu.cpp.o[0m
+[ 17%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/clickrem.c.o[0m
+[ 18%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Oscs.cpp.o[0m
+[ 19%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/barray.c.o[0m
+[ 19%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nes_Vrc6_Apu.cpp.o[0m
+[ 19%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/xmeffect.c.o[0m
+[ 19%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/substr.cc.o[0m
+[ 19%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readxm2.c.o[0m
+[ 19%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nsf_Emu.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Nsfe_Emu.cpp.o[0m
+[ 19%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readxm.c.o[0m
+[ 19%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Sap_Apu.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Sap_Cpu.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/vizdoom/tools/re2c/CMakeFiles/re2c.dir/translate.cc.o[0m
+[ 20%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readstm2.c.o[0m
+[ 20%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Sap_Emu.cpp.o[0m
+[ 21%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readstm.c.o[0m
+[ 21%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Snes_Spc.cpp.o[0m
+[ 21%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/reads3m2.c.o[0m
+[ 21%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Spc_Cpu.cpp.o[0m
+[ 21%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/reads3m.c.o[0m
+[ 21%] [32m[1mLinking CXX executable ../../../../bin/re2c[0m
+[ 21%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Spc_Dsp.cpp.o[0m
+[ 21%] Built target re2c
+[ 21%] [32mBuilding C object src/vizdoom/tools/zipdir/CMakeFiles/zipdir.dir/zipdir.c.o[0m
+[ 21%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readriff.c.o[0m
+[ 21%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readptm.c.o[0m
+[ 22%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Spc_Emu.cpp.o[0m
+[ 23%] [32m[1mLinking C executable ../../../../bin/zipdir[0m
+[ 23%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readpsm.c.o[0m
+[ 23%] Built target zipdir
+[ 23%] [34m[1mGenerating arith.h[0m
+[ 23%] [32mBuilding C object src/vizdoom/gdtoa/CMakeFiles/qnan.dir/qnan.c.o[0m
+[ 23%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Spc_Filter.cpp.o[0m
+[ 23%] [32m[1mLinking C executable ../../../bin/qnan[0m
+[ 23%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu.cpp.o[0m
+[ 23%] Built target qnan
+[ 24%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readoldpsm.c.o[0m
+[ 24%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu_Impl.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/vizdoom/game-music-emu/gme/CMakeFiles/gme.dir/Ym2413_Emu.cpp.o[0m
+[ 24%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readokt2.c.o[0m
+[ 24%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readokt.c.o[0m
+[ 24%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readmtm.c.o[0m
+[ 24%] [32m[1mLinking CXX static library libgme.a[0m
+[ 24%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readmod2.c.o[0m
+[ 24%] Built target gme
+[ 24%] [34m[1mGenerating gd_qnan.h[0m
+[ 24%] [32mBuilding C object src/vizdoom/gdtoa/CMakeFiles/gdtoa.dir/dmisc.c.o[0m
+[ 25%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readmod.c.o[0m
+[ 25%] [32mBuilding C object src/vizdoom/gdtoa/CMakeFiles/gdtoa.dir/dtoa.c.o[0m
+[ 25%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readdsmf.c.o[0m
+[ 25%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readasy.c.o[0m
+[ 26%] [32mBuilding C object src/vizdoom/gdtoa/CMakeFiles/gdtoa.dir/misc.c.o[0m
+[ 26%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readamf2.c.o[0m
+[ 26%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readamf.c.o[0m
+[ 26%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readam.c.o[0m
+[ 27%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/read6692.c.o[0m
+[ 27%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/read669.c.o[0m
+[ 27%] [32m[1mLinking C static library libgdtoa.a[0m
+[ 27%] Built target gdtoa
+[ 27%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/ptmeffect.c.o[0m
+[ 27%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadxm2.c.o[0m
+[ 27%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadxm.c.o[0m
+[ 28%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadstm2.c.o[0m
+[ 28%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadstm.c.o[0m
+[ 28%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loads3m2.c.o[0m
+[ 28%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loads3m.c.o[0m
+[ 28%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadriff2.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadriff.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadptm2.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadptm.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadpsm2.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadpsm.c.o[0m
+[ 29%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm2.c.o[0m
+[ 30%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm.c.o[0m
+[ 30%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadokt2.c.o[0m
+[ 30%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadokt.c.o[0m
+[ 30%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadmtm2.c.o[0m
+[ 30%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadmtm.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadmod2.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadmod.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadasy2.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadasy.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadamf2.c.o[0m
+[ 31%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadamf.c.o[0m
+[ 32%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/load6692.c.o[0m
+[ 32%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/load669.c.o[0m
+[ 32%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itunload.c.o[0m
+[ 32%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itrender.c.o[0m
+[ 32%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itread2.c.o[0m
+[ 33%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itread.c.o[0m
+[ 33%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itorder.c.o[0m
+[ 33%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itmisc.c.o[0m
+[ 33%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itload2.c.o[0m
+[ 33%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/itload.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readany.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadany2.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/loadany.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/it/readany2.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/resampler.c.o[0m
+[ 34%] [32mBuilding C object src/vizdoom/dumb/CMakeFiles/dumb.dir/src/helpers/lpc.c.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomExceptions.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomExceptions.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomGame.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomMessageQueue.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomGame.cpp.o[0m
+[ 36%] [32m[1mLinking C static library libdumb.a[0m
+[ 36%] Built target dumb
+[ 36%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomMessageQueue.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomPathHelpers.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomPathHelpers.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomSharedMemory.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/libvizdoom_shared.dir/src/lib/ViZDoomUtilities.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomSharedMemory.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/libvizdoom_static.dir/src/lib/ViZDoomUtilities.cpp.o[0m
+[ 37%] [34m[1mGenerating xlat_parser.c, xlat_parser.h[0m
+[ 37%] [34m[1mGenerating CMakeFiles/zdoom.dir/asm_x86_64/tmap3.o[0m
+[ 37%] [34m[1mGenerating sc_man_scanner.h[0m
+[ 37%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/__autostart.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/i_cd.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/i_movie.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/i_steam.cpp.o[0m
+[ 38%] [32mBuilding C object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/crashcatcher.c.o[0m
+[ 38%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/hardware.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_gui.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_input.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_joystick.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_main.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_system.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/i_timer.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/sdlvideo.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/posix/sdl/st_start.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/x86.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/actorptrselect.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/am_map.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/b_bot.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/b_func.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/b_game.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/b_move.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library bin/libvizdoom.so[0m
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/b_think.cpp.o[0m
+[ 41%] Built target libvizdoom_shared
+[ 41%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/bbannouncer.cpp.o[0m
+[ 41%] [32m[1mLinking CXX static library bin/libvizdoom.a[0m
+[ 42%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_bind.cpp.o[0m
+[ 42%] Built target libvizdoom_static
+[ 42%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_console.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_cmds.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_consolebuffer.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_cvars.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_dispatch.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/c_expr.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/cmdlib.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/colormatcher.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/compatibility.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/configfile.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/ct_chat.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_dehacked.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_iwad.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_main.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_net.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_netinfo.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/d_protocol.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/decallib.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/dobject.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/dobjgc.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/dobjtype.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/doomdef.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/doomstat.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/dsectoreffect.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/dthinker.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/f_wipe.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/farchive.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/files.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_doomedmap.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_game.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_hub.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_level.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_mapinfo.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_skill.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/gameconfigfile.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/gi.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/gitinfo.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/hu_scores.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/i_net.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/info.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/keysections.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/lumpconfigfile.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_alloc.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_argv.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_cheat.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_bbox.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_joy.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_misc.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_png.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_random.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/m_specialpaths.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/memarena.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/md5.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/name.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild_classify_nosse2.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild_events.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild_extract.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild_gl.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/nodebuild_utility.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/pathexpander.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_3dfloors.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_3dmidtex.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_acs.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_buildmap.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_ceiling.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_conversation.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_doors.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_effect.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_enemy.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_floor.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_glnodes.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_interaction.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_lights.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_linkedsectors.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_lnspec.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_map.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_maputl.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_mobj.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_pillar.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_plats.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_pspr.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_saveg.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_sectors.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_setup.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_sight.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_slopes.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_spec.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_states.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_switch.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_tags.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_teleport.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_terrain.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_things.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_tick.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_trace.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_udmf.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_usdf.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_user.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_writemap.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/p_xlat.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/parsecontext.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/po_man.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_swrenderer.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_utility.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_3dfloors.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_bsp.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_draw.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_drawt.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_main.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_plane.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_segs.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_sky.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_things.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/s_advsound.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/s_environment.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/s_playlist.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/s_sndseq.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/s_sound.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sc_man.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/st_stuff.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/statistics.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/stats.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/stringtable.cpp.o[0m
+[ 65%] [32mBuilding C object src/vizdoom/src/CMakeFiles/vizdoom.dir/strnatcmp.c.o[0m
+[ 65%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/tables.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/teaminfo.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/tempfiles.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_blend.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_collection.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_draw.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_font.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_palette.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_pfx.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_text.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/v_video.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/w_wad.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wi_stuff.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/zstrformat.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/zstring.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/GuillotineBinPack.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/SkylineBinPack.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_doom/a_doommisc.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_heretic/a_hereticmisc.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_hexen/a_hexenmisc.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_raven/a_artitele.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_raven/a_minotaur.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_strife/a_strifestuff.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_strife/strife_sbar.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_action.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_armor.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_artifacts.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_bridge.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_camera.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_debris.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_decals.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_fastprojectile.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_flashfader.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_fountain.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_hatetarget.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_keys.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_lightning.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_mapmarker.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_morph.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_movingcamera.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_pickups.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_puzzleitems.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_quake.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_randomspawner.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_secrettrigger.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_sectoraction.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_setcolor.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_skies.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_soundenvironment.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_soundsequence.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_spark.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_specialspot.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_waterzone.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_weaponpiece.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/a_weapons.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/hudmessages.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/sbarinfo.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/sbar_mugshot.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/shared_hud.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/g_shared/shared_sbar.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/intermission/intermission.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/intermission/intermission_parse.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/colorpickermenu.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/joystickmenu.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/listmenu.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/loadsavemenu.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/menu.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/menudef.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/menuinput.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/messagebox.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/optionmenu.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/playerdisplay.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/playermenu.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/readthis.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/menu/videomenu.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/fmopl.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/mlopl.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/mlopl_io.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/music_opldumper_mididevice.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/music_opl_mididevice.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/opl_mus_player.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/dosbox/opl.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/OPL3.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/oplsynth/nukedopl3.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/ancientzip.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_7z.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_grp.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_lump.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_rff.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_wad.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_zip.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_pak.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/file_directory.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/resourcefiles/resourcefile.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sfmt/SFMT.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/fmodsound.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/i_music.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/i_sound.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/mpg123_decoder.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_cd.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_dumb.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_gme.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_mus_midiout.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_smf_midiout.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_hmi_midiout.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_xmi_midiout.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_midistream.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_midi_base.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_midi_timidity.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_mus_opl.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_stream.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_fluidsynth_mididevice.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_softsynth_mididevice.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_timidity_mididevice.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_wildmidi_mididevice.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_win_mididevice.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/oalsound.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/sndfile_decoder.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/sound/music_pseudo_mididevice.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/animations.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/anim_switches.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/automaptexture.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/bitmap.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/buildtexture.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/canvastexture.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/ddstexture.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/flattexture.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/imgztexture.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/jpegtexture.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/multipatchtexture.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/patchtexture.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/pcxtexture.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/pngtexture.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/rawpagetexture.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/emptytexture.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/texture.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/texturemanager.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/tgatexture.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/textures/warptexture.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/olddecorations.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_codeptr.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_data.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_exp.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_expression.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_function.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_parse.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_properties.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/thingdef/thingdef_states.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/common.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/instrum.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/instrum_dls.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/instrum_font.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/instrum_sf2.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/mix.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/playmidi.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/resample.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/timidity/timidity.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wildmidi/file_io.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wildmidi/gus_pat.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wildmidi/reverb.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wildmidi/wildmidi_lib.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/wildmidi/wm_error.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/xlat/parse_xlat.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_fspic.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_func.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_load.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_oper.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_parse.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_prepro.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_script.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_spec.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_variable.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/fragglescript/t_cmd.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/colormaps.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/sprites.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/voxels.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/renderstyle.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/r_interpolate.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/r_data/r_translate.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/zzautozend.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_depth.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_game.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_input.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_labels.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_main.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_message_queue.cpp.o[0m
+[100%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_buffers.cpp.o[0m
+[100%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_shared_memory.cpp.o[0m
+[100%] [32mBuilding CXX object src/vizdoom/src/CMakeFiles/vizdoom.dir/viz_system.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../../bin/vizdoom[0m
+[100%] Built target vizdoom
+[100%] [34m[1mGenerating ../../../bin/vizdoom.pk3[0m
+Adding actors/actor.txt                         78.0% [  4864/ 22133] Deflate
+Adding actors/chex/chexammo.txt                 74.2% [   354/  1371] Deflate
+Adding actors/chex/chexdecorations.txt          69.7% [   532/  1758] Deflate
+Adding actors/chex/chexitems.txt                68.4% [   380/  1203] Deflate
+Adding actors/chex/chexkeys.txt                 48.3% [   150/   290] Deflate
+Adding actors/chex/chexmonsters.txt             78.9% [   380/  1799] Deflate
+Adding actors/chex/chexplayer.txt               58.4% [   436/  1047] Deflate
+Adding actors/chex/chexweapons.txt              67.8% [   707/  2193] Deflate
+Adding actors/constants.txt                     69.2% [  4617/ 14983] Deflate
+Adding actors/doom/arachnotron.txt              63.1% [   539/  1460] Deflate
+Adding actors/doom/archvile.txt                 63.8% [   555/  1535] Deflate
+Adding actors/doom/bossbrain.txt                72.5% [   558/  2027] Deflate
+Adding actors/doom/bruiser.txt                  71.1% [   638/  2208] Deflate
+Adding actors/doom/cacodemon.txt                63.0% [   514/  1388] Deflate
+Adding actors/doom/cyberdemon.txt               59.9% [   420/  1047] Deflate
+Adding actors/doom/deadthings.txt               71.9% [   571/  2032] Deflate
+Adding actors/doom/demon.txt                    63.9% [   468/  1298] Deflate
+Adding actors/doom/doomammo.txt                 82.6% [   416/  2387] Deflate
+Adding actors/doom/doomarmor.txt                68.0% [   331/  1034] Deflate
+Adding actors/doom/doomartifacts.txt            75.2% [   830/  3351] Deflate
+Adding actors/doom/doomdecorations.txt          87.5% [  1250/ 10005] Deflate
+Adding actors/doom/doomhealth.txt               64.5% [   275/   774] Deflate
+Adding actors/doom/doomimp.txt                  62.7% [   518/  1388] Deflate
+Adding actors/doom/doomkeys.txt                 79.1% [   329/  1571] Deflate
+Adding actors/doom/doommisc.txt                 52.3% [   765/  1604] Deflate
+Adding actors/doom/doomplayer.txt               64.6% [   692/  1954] Deflate
+Adding actors/doom/doomweapons.txt              81.1% [  1846/  9751] Deflate
+Adding actors/doom/fatso.txt                    64.0% [   538/  1493] Deflate
+Adding actors/doom/keen.txt                     55.0% [   296/   658] Deflate
+Adding actors/doom/lostsoul.txt                 62.2% [   498/  1316] Deflate
+Adding actors/doom/painelemental.txt            60.5% [   345/   874] Deflate
+Adding actors/doom/possessed.txt                78.3% [   881/  4065] Deflate
+Adding actors/doom/revenant.txt                 67.6% [   644/  1986] Deflate
+Adding actors/doom/scriptedmarine.txt           81.4% [  1009/  5416] Deflate
+Adding actors/doom/spidermaster.txt             58.2% [   468/  1120] Deflate
+Adding actors/doom/stealthmonsters.txt          79.5% [   337/  1643] Deflate
+Adding actors/heretic/beast.txt                 59.9% [   707/  1763] Deflate
+Adding actors/heretic/chicken.txt               66.1% [   972/  2865] Deflate
+Adding actors/heretic/clink.txt                 47.4% [   385/   732] Deflate
+Adding actors/heretic/dsparil.txt               73.1% [  1243/  4623] Deflate
+Adding actors/heretic/hereticammo.txt           84.4% [   578/  3711] Deflate
+Adding actors/heretic/hereticarmor.txt          60.5% [   242/   613] Deflate
+Adding actors/heretic/hereticartifacts.txt      66.4% [   605/  1799] Deflate
+Adding actors/heretic/hereticdecorations.txt    80.3% [   434/  2199] Deflate
+Adding actors/heretic/hereticimp.txt            65.7% [   858/  2498] Deflate
+Adding actors/heretic/heretickeys.txt           79.2% [   422/  2025] Deflate
+Adding actors/heretic/hereticmisc.txt           72.7% [  1059/  3883] Deflate
+Adding actors/heretic/hereticplayer.txt         63.0% [   965/  2611] Deflate
+Adding actors/heretic/hereticweaps.txt          80.9% [  3445/ 18063] Deflate
+Adding actors/heretic/ironlich.txt              68.2% [   800/  2515] Deflate
+Adding actors/heretic/knight.txt                63.0% [   679/  1833] Deflate
+Adding actors/heretic/mummy.txt                 66.7% [   793/  2384] Deflate
+Adding actors/heretic/snake.txt                 60.7% [   596/  1516] Deflate
+Adding actors/heretic/wizard.txt                63.2% [   581/  1579] Deflate
+Adding actors/hexen/baseweapons.txt             55.1% [   218/   486] Deflate
+Adding actors/hexen/bats.txt                    58.7% [   289/   700] Deflate
+Adding actors/hexen/bishop.txt                  68.3% [   855/  2698] Deflate
+Adding actors/hexen/blastradius.txt             45.7% [   343/   632] Deflate
+Adding actors/hexen/boostarmor.txt              39.1% [   273/   448] Deflate
+Adding actors/hexen/centaur.txt                 67.6% [  1110/  3430] Deflate
+Adding actors/hexen/clericboss.txt              59.9% [   543/  1353] Deflate
+Adding actors/hexen/clericflame.txt             75.2% [   856/  3453] Deflate
+Adding actors/hexen/clericholy.txt              72.6% [  1142/  4163] Deflate
+Adding actors/hexen/clericmace.txt              60.9% [   371/   950] Deflate
+Adding actors/hexen/clericplayer.txt            61.4% [   862/  2232] Deflate
+Adding actors/hexen/clericstaff.txt             62.2% [   675/  1788] Deflate
+Adding actors/hexen/demons.txt                  82.1% [  1300/  7268] Deflate
+Adding actors/hexen/dragon.txt                  65.0% [   723/  2065] Deflate
+Adding actors/hexen/ettin.txt                   59.5% [   697/  1721] Deflate
+Adding actors/hexen/fighteraxe.txt              69.4% [   719/  2348] Deflate
+Adding actors/hexen/fighterboss.txt             59.9% [   540/  1346] Deflate
+Adding actors/hexen/fighterfist.txt             59.1% [   498/  1218] Deflate
+Adding actors/hexen/fighterhammer.txt           60.7% [   767/  1953] Deflate
+Adding actors/hexen/fighterplayer.txt           62.0% [   993/  2616] Deflate
+Adding actors/hexen/fighterquietus.txt          70.6% [   925/  3146] Deflate
+Adding actors/hexen/firedemon.txt               75.8% [   874/  3609] Deflate
+Adding actors/hexen/flame.txt                   75.5% [   463/  1890] Deflate
+Adding actors/hexen/flechette.txt               72.6% [  1138/  4157] Deflate
+Adding actors/hexen/flies.txt                   40.5% [   244/   410] Deflate
+Adding actors/hexen/fog.txt                     68.5% [   335/  1062] Deflate
+Adding actors/hexen/healingradius.txt           42.6% [   274/   477] Deflate
+Adding actors/hexen/heresiarch.txt              72.4% [  1517/  5491] Deflate
+Adding actors/hexen/hexenarmor.txt              73.9% [   282/  1079] Deflate
+Adding actors/hexen/hexendecorations.txt        88.4% [  1437/ 12383] Deflate
+Adding actors/hexen/hexenkeys.txt               80.3% [   339/  1720] Deflate
+Adding actors/hexen/hexenspecialdecs.txt        79.9% [  1943/  9645] Deflate
+Adding actors/hexen/iceguy.txt                  70.0% [   782/  2608] Deflate
+Adding actors/hexen/korax.txt                   63.9% [   736/  2040] Deflate
+Adding actors/hexen/mageboss.txt                60.6% [   538/  1367] Deflate
+Adding actors/hexen/magecone.txt                60.1% [   567/  1420] Deflate
+Adding actors/hexen/magelightning.txt           70.3% [   901/  3038] Deflate
+Adding actors/hexen/mageplayer.txt              61.2% [   885/  2279] Deflate
+Adding actors/hexen/magestaff.txt               69.0% [   858/  2770] Deflate
+Adding actors/hexen/magewand.txt                58.3% [   532/  1277] Deflate
+Adding actors/hexen/mana.txt                    71.2% [   476/  1651] Deflate
+Adding actors/hexen/pig.txt                     64.5% [   846/  2380] Deflate
+Adding actors/hexen/puzzleitems.txt             84.8% [   767/  5053] Deflate
+Adding actors/hexen/scriptprojectiles.txt       76.2% [   427/  1794] Deflate
+Adding actors/hexen/serpent.txt                 70.9% [  1221/  4200] Deflate
+Adding actors/hexen/speedboots.txt              24.8% [   203/   270] Deflate
+Adding actors/hexen/spike.txt                   75.4% [   430/  1751] Deflate
+Adding actors/hexen/summon.txt                  55.5% [   447/  1005] Deflate
+Adding actors/hexen/teleportother.txt           69.7% [   531/  1754] Deflate
+Adding actors/hexen/wraith.txt                  72.4% [   950/  3437] Deflate
+Adding actors/raven/artiegg.txt                 75.0% [   563/  2250] Deflate
+Adding actors/raven/artitele.txt                43.5% [   251/   444] Deflate
+Adding actors/raven/minotaur.txt                69.5% [  1096/  3592] Deflate
+Adding actors/raven/ravenambient.txt            65.8% [   181/   530] Deflate
+Adding actors/raven/ravenartifacts.txt          76.3% [   568/  2396] Deflate
+Adding actors/raven/ravenhealth.txt             13.0% [   141/   162] Deflate
+Adding actors/shared/action.txt                 65.2% [   302/   867] Deflate
+Adding actors/shared/blood.txt                  67.1% [   278/   845] Deflate
+Adding actors/shared/botstuff.txt               26.5% [   139/   189] Deflate
+Adding actors/shared/bridge.txt                 70.1% [   470/  1573] Deflate
+Adding actors/shared/camera.txt                 32.5% [   156/   231] Deflate
+Adding actors/shared/damagetypes.txt             0.0% [    37/    37] Stored
+Adding actors/shared/debris.txt                 80.7% [   635/  3294] Deflate
+Adding actors/shared/decal.txt                   0.0% [    26/    26] Stored
+Adding actors/shared/dog.txt                    48.1% [   325/   626] Deflate
+Adding actors/shared/fountain.txt               70.0% [   167/   556] Deflate
+Adding actors/shared/hatetarget.txt             37.8% [   153/   246] Deflate
+Adding actors/shared/inventory.txt              74.2% [  2144/  8309] Deflate
+Adding actors/shared/mapmarker.txt              13.3% [   124/   143] Deflate
+Adding actors/shared/morph.txt                  30.4% [   119/   171] Deflate
+Adding actors/shared/movingcamera.txt           59.2% [   157/   385] Deflate
+Adding actors/shared/pickups.txt                60.4% [   198/   500] Deflate
+Adding actors/shared/player.txt                 46.9% [   461/   868] Deflate
+Adding actors/shared/secrettrigger.txt          12.1% [    80/    91] Deflate
+Adding actors/shared/sectoraction.txt           82.3% [   293/  1655] Deflate
+Adding actors/shared/setcolor.txt               48.7% [    96/   187] Deflate
+Adding actors/shared/sharedmisc.txt             68.8% [   892/  2855] Deflate
+Adding actors/shared/skies.txt                  61.4% [   180/   466] Deflate
+Adding actors/shared/soundenvironment.txt       11.7% [    83/    94] Deflate
+Adding actors/shared/soundsequence.txt          77.9% [   223/  1009] Deflate
+Adding actors/shared/spark.txt                  13.9% [    68/    79] Deflate
+Adding actors/shared/specialspot.txt            20.9% [   110/   139] Deflate
+Adding actors/shared/splashes.txt               77.3% [   640/  2825] Deflate
+Adding actors/shared/teleport.txt               51.5% [   216/   445] Deflate
+Adding actors/shared/waterzone.txt              13.3% [    72/    83] Deflate
+Adding actors/strife/acolyte.txt                72.9% [   902/  3333] Deflate
+Adding actors/strife/alienspectres.txt          74.1% [   978/  3779] Deflate
+Adding actors/strife/beggars.txt                57.3% [   537/  1257] Deflate
+Adding actors/strife/coin.txt                   74.5% [   345/  1354] Deflate
+Adding actors/strife/crusader.txt               63.9% [   855/  2369] Deflate
+Adding actors/strife/entityboss.txt             72.8% [   986/  3624] Deflate
+Adding actors/strife/inquisitor.txt             67.1% [   883/  2681] Deflate
+Adding actors/strife/loremaster.txt             60.5% [   788/  1997] Deflate
+Adding actors/strife/macil.txt                  54.6% [   685/  1509] Deflate
+Adding actors/strife/merchants.txt              60.9% [   622/  1589] Deflate
+Adding actors/strife/oracle.txt                 44.3% [   296/   531] Deflate
+Adding actors/strife/peasants.txt               71.2% [   666/  2314] Deflate
+Adding actors/strife/programmer.txt             62.8% [   753/  2025] Deflate
+Adding actors/strife/questitems.txt             72.5% [   706/  2571] Deflate
+Adding actors/strife/ratbuddy.txt               37.0% [   298/   473] Deflate
+Adding actors/strife/reaver.txt                 52.3% [   508/  1064] Deflate
+Adding actors/strife/rebels.txt                 66.0% [   739/  2174] Deflate
+Adding actors/strife/sentinel.txt               59.2% [   602/  1476] Deflate
+Adding actors/strife/sigil.txt                  79.1% [   647/  3098] Deflate
+Adding actors/strife/spectral.txt               77.4% [  1028/  4551] Deflate
+Adding actors/strife/stalker.txt                60.0% [   549/  1374] Deflate
+Adding actors/strife/strifeammo.txt             81.2% [   698/  3717] Deflate
+Adding actors/strife/strifearmor.txt            60.1% [   275/   689] Deflate
+Adding actors/strife/strifebishop.txt           57.8% [   794/  1880] Deflate
+Adding actors/strife/strifehumanoid.txt         58.8% [   393/   953] Deflate
+Adding actors/strife/strifeitems.txt            80.5% [  1872/  9598] Deflate
+Adding actors/strife/strifekeys.txt             85.3% [  1096/  7463] Deflate
+Adding actors/strife/strifeplayer.txt           65.4% [   980/  2836] Deflate
+Adding actors/strife/strifestuff.txt            84.1% [  3751/ 23640] Deflate
+Adding actors/strife/strifeweapons.txt          78.1% [  3042/ 13871] Deflate
+Adding actors/strife/templar.txt                51.1% [   536/  1097] Deflate
+Adding actors/strife/thingstoblowup.txt         68.9% [   792/  2549] Deflate
+Adding actors/strife/zombie.txt                 51.9% [   454/   944] Deflate
+Adding filter/doom.freedoom/decaldef.z          60.3% [   165/   416] Deflate
+Adding filter/game-doom/graphics/stcfn191.lmp   43.0% [    73/   128] Deflate
+Adding filter/game-doom/graphics/stcfn193.lmp   32.1% [    89/   131] Deflate
+Adding filter/game-doom/graphics/stcfn196.lmp   43.0% [    81/   142] Deflate
+Adding filter/game-doom/graphics/stcfn197.lmp   37.8% [    79/   127] Deflate
+Adding filter/game-doom/graphics/stcfn201.lmp   33.1% [    91/   136] Deflate
+Adding filter/game-doom/graphics/stcfn205.lmp   32.1% [    57/    84] Deflate
+Adding filter/game-doom/graphics/stcfn209.lmp   40.6% [    85/   143] Deflate
+Adding filter/game-doom/graphics/stcfn211.lmp   33.1% [    85/   127] Deflate
+Adding filter/game-doom/graphics/stcfn214.lmp   37.8% [    84/   135] Deflate
+Adding filter/game-doom/graphics/stcfn218.lmp   35.7% [    83/   129] Deflate
+Adding filter/game-doom/graphics/stcfn220.lmp   42.3% [    75/   130] Deflate
+Adding filter/game-doom/graphics/stcfn223.lmp   36.8% [    86/   136] Deflate
+Adding filter/game-doomchex/sndinfo.txt         76.1% [  3266/ 13646] Deflate
+Adding filter/game-heretic/defbinds.txt          0.0% [    72/    72] Stored
+Adding filter/game-heretic/sndinfo.txt          71.2% [  1949/  6757] Deflate
+Adding filter/game-hexen/defbinds.txt           31.8% [   167/   245] Deflate
+Adding filter/game-hexen/sndinfo.txt            77.4% [  1526/  6763] Deflate
+Adding filter/game-raven/graphics/fonta164.lmp  35.1% [   109/   168] Deflate
+Adding filter/game-raven/graphics/fonta165.lmp  31.5% [   113/   165] Deflate
+Adding filter/game-raven/graphics/fonta182.lmp  32.2% [   116/   171] Deflate
+Adding filter/game-raven/graphics/fonta188.lmp  34.7% [   113/   173] Deflate
+Adding filter/game-raven/graphics/fonta191.lmp  33.1% [   109/   163] Deflate
+Adding filter/game-raven/graphics/fonta60.lmp   35.9% [    59/    92] Deflate
+Adding filter/game-raven/graphics/fonta61.lmp   35.9% [    59/    92] Deflate
+Adding filter/game-raven/graphics/fonta62.lmp   32.1% [    19/    28] Deflate
+Adding filter/game-raven/graphics/fonta63.lmp   35.9% [    59/    92] Deflate
+Adding filter/game-strife/defbinds.txt          21.0% [   124/   157] Deflate
+Adding filter/game-strife/loadacs.txt            0.0% [    10/    10] Stored
+Adding filter/game-strife/sndinfo.txt           71.9% [  2378/  8460] Deflate
+Adding filter/strifeteaser1/mapinfo/conversationids.txt 57.8% [  1095/  2597] Deflate
+Adding filter/strifeteaser2/mapinfo/conversationids.txt 57.6% [  1082/  2554] Deflate
+Adding graphics/-badpatc.lmp                    64.7% [   193/   546] Deflate
+Adding graphics/artibox.png                      0.0% [   650/   650] Stored
+Adding graphics/bal7scr1.png                     0.0% [   637/   637] Stored
+Adding graphics/bal7scr2.png                     0.0% [   665/   665] Stored
+Adding graphics/bfglite1.png                     0.0% [  1107/  1107] Stored
+Adding graphics/bfglite2.png                     0.0% [  1020/  1020] Stored
+Adding graphics/bfgscrc1.png                     0.0% [  2263/  2263] Stored
+Adding graphics/bfgscrc2.png                     0.0% [  2602/  2602] Stored
+Adding graphics/blast1.png                       0.0% [  2172/  2172] Stored
+Adding graphics/bsmear1.png                      0.0% [  1004/  1004] Stored
+Adding graphics/bsmear2.png                      0.0% [  1060/  1060] Stored
+Adding graphics/bsplat1.png                      0.0% [   595/   595] Stored
+Adding graphics/bsplat2.png                      0.0% [   810/   810] Stored
+Adding graphics/bsplat3.png                      0.0% [   346/   346] Stored
+Adding graphics/bsplat4.png                      0.0% [   366/   366] Stored
+Adding graphics/bsplat5.png                      0.0% [   399/   399] Stored
+Adding graphics/bsplat6.png                      0.0% [   615/   615] Stored
+Adding graphics/bsplat7.png                      3.5% [   221/   229] Deflate
+Adding graphics/cbalscr1.png                     0.0% [   636/   636] Stored
+Adding graphics/cbalscr2.png                     0.0% [   665/   665] Stored
+Adding graphics/cbowmark.png                     0.0% [  1680/  1680] Stored
+Adding graphics/chexcurs.png                     0.0% [   358/   358] Stored
+Adding graphics/chip1.png                        6.7% [   140/   150] Deflate
+Adding graphics/chip2.png                        7.3% [   127/   137] Deflate
+Adding graphics/chip3.png                        8.6% [   128/   140] Deflate
+Adding graphics/chip4.png                        8.3% [   121/   132] Deflate
+Adding graphics/chip5.png                        7.8% [   130/   141] Deflate
+Adding graphics/clerface.lmp                    25.4% [   194/   260] Deflate
+Adding graphics/cursor.png                       0.0% [   264/   264] Stored
+Adding graphics/doomcurs.png                     0.0% [   741/   741] Stored
+Adding graphics/fiteface.lmp                    20.6% [   235/   296] Deflate
+Adding graphics/hamoback.png                     0.0% [   831/   831] Stored
+Adding graphics/herecurs.png                     0.0% [  1298/  1298] Stored
+Adding graphics/hexncurs.png                     0.0% [   403/   403] Stored
+Adding graphics/invgeml1.png                     3.4% [   198/   205] Deflate
+Adding graphics/invgeml2.png                     2.4% [   202/   207] Deflate
+Adding graphics/invgemr1.png                     3.3% [   202/   209] Deflate
+Adding graphics/invgemr2.png                     1.9% [   211/   215] Deflate
+Adding graphics/m_back_d.png                     1.0% [   202/   204] Deflate
+Adding graphics/m_back_h.png                     0.9% [   211/   213] Deflate
+Adding graphics/m_back_s.png                     0.0% [   235/   235] Stored
+Adding graphics/m_back_x.png                     1.2% [   167/   169] Deflate
+Adding graphics/mageface.lmp                    42.1% [   191/   330] Deflate
+Adding graphics/plasma1.png                      0.0% [  1214/  1214] Stored
+Adding graphics/plasma2.png                      0.0% [  1446/  1446] Stored
+Adding graphics/readyico.png                     2.3% [   253/   259] Deflate
+Adding graphics/scorch1.png                      0.0% [  3488/  3488] Stored
+Adding graphics/selectbo.png                     3.3% [   177/   183] Deflate
+Adding graphics/stfbany.lmp                     90.6% [   132/  1408] Deflate
+Adding graphics/stkeys6.lmp                     26.0% [    77/   104] Deflate
+Adding graphics/stkeys7.lmp                     24.0% [    79/   104] Deflate
+Adding graphics/stkeys8.lmp                     24.0% [    79/   104] Deflate
+Adding graphics/stpbany.lmp                     91.7% [   122/  1478] Deflate
+Adding graphics/strfcurs.png                     0.7% [   300/   302] Deflate
+Adding graphics/twirl.png                        0.0% [  2660/  2660] Stored
+Adding graphics/wislash.lmp                     38.2% [   118/   191] Deflate
+Adding graphics/xhairb1.imgz                    53.3% [    42/    90] Deflate
+Adding graphics/xhairb2.png                     10.9% [   114/   128] Deflate
+Adding graphics/xhairb3.imgz                    47.4% [    61/   116] Deflate
+Adding graphics/xhairb4.imgz                    34.1% [    54/    82] Deflate
+Adding graphics/xhairb5.imgz                    44.0% [    28/    50] Deflate
+Adding graphics/xhairb6.imgz                    23.6% [    55/    72] Deflate
+Adding graphics/xhairb7.imgz                    36.4% [    21/    33] Deflate
+Adding graphics/xhairs1.imgz                    51.0% [    24/    49] Deflate
+Adding graphics/xhairs2.imgz                    51.4% [    35/    72] Deflate
+Adding graphics/xhairs3.imgz                    53.1% [    23/    49] Deflate
+Adding graphics/xhairs4.imgz                    42.9% [    28/    49] Deflate
+Adding graphics/xhairs5.imgz                    45.5% [    18/    33] Deflate
+Adding graphics/xhairs6.imgz                    16.7% [    40/    48] Deflate
+Adding graphics/xhairs7.imgz                    52.0% [    12/    25] Deflate
+Adding maparrows/arrow.txt                      62.6% [    83/   222] Deflate
+Adding maparrows/dagger.txt                     62.8% [   141/   379] Deflate
+Adding maparrows/ddtarrow.txt                   71.4% [   156/   545] Deflate
+Adding maparrows/key.txt                        66.2% [    96/   284] Deflate
+Adding maparrows/ravenkey.txt                   54.3% [   122/   267] Deflate
+Adding mapinfo/chex.txt                         64.1% [  2025/  5636] Deflate
+Adding mapinfo/chex3.txt                        28.1% [   128/   178] Deflate
+Adding mapinfo/common.txt                       75.6% [  2951/ 12098] Deflate
+Adding mapinfo/conversationids.txt              60.8% [  2505/  6391] Deflate
+Adding mapinfo/doom1.txt                        82.4% [  1462/  8328] Deflate
+Adding mapinfo/doom2.txt                        83.7% [  1360/  8324] Deflate
+Adding mapinfo/doom2bfg.txt                     59.5% [   405/  1001] Deflate
+Adding mapinfo/doomcommon.txt                   58.7% [  1805/  4370] Deflate
+Adding mapinfo/doomitems.txt                    63.7% [  1182/  3257] Deflate
+Adding mapinfo/hacxharm.txt                     11.1% [    64/    72] Deflate
+Adding mapinfo/heretic.txt                      76.2% [  3317/ 13921] Deflate
+Adding mapinfo/hereticsw.txt                    20.9% [   117/   148] Deflate
+Adding mapinfo/hexdd.txt                        12.4% [    78/    89] Deflate
+Adding mapinfo/hexen.txt                        65.1% [  3929/ 11246] Deflate
+Adding mapinfo/mindefaults.txt                  55.4% [   734/  1644] Deflate
+Adding mapinfo/plutonia.txt                     81.8% [  1203/  6613] Deflate
+Adding mapinfo/strife.txt                       69.3% [  4799/ 15633] Deflate
+Adding mapinfo/tnt.txt                          81.9% [  1195/  6595] Deflate
+Adding mapinfo/ultdoom.txt                      25.4% [   132/   177] Deflate
+Adding mapinfo/urbanbrawl.txt                   11.1% [    80/    90] Deflate
+Adding sbarinfo/doom.txt                        72.2% [  1203/  4322] Deflate
+Adding sbarinfo/heretic.txt                     68.5% [  1196/  3801] Deflate
+Adding sbarinfo/hexen.txt                       76.8% [  1529/  6599] Deflate
+Adding shaders/d3d/build.bat                    52.1% [    45/    94] Deflate
+Adding shaders/d3d/shaders.ps                   63.2% [  1418/  3855] Deflate
+Adding shaders/d3d/sm14/BurnWipe.pso            25.4% [   170/   228] Deflate
+Adding shaders/d3d/sm14/GammaCorrection.pso     40.9% [   272/   460] Deflate
+Adding shaders/d3d/sm14/InGameColormap.pso      23.0% [   151/   196] Deflate
+Adding shaders/d3d/sm14/InGameColormapDesat.pso 30.2% [   229/   328] Deflate
+Adding shaders/d3d/sm14/InGameColormapInv.pso   25.8% [   190/   256] Deflate
+Adding shaders/d3d/sm14/InGameColormapInvDesat.pso 31.7% [   235/   344] Deflate
+Adding shaders/d3d/sm14/InGameColormapPal.pso   32.4% [   219/   324] Deflate
+Adding shaders/d3d/sm14/InGameColormapPalDesat.pso 35.6% [   281/   436] Deflate
+Adding shaders/d3d/sm14/InGameColormapPalInv.pso 32.9% [   247/   368] Deflate
+Adding shaders/d3d/sm14/InGameColormapPalInvDesat.pso 36.5% [   287/   452] Deflate
+Adding shaders/d3d/sm14/NormalColor.pso         21.7% [   141/   180] Deflate
+Adding shaders/d3d/sm14/NormalColorInv.pso      25.0% [   180/   240] Deflate
+Adding shaders/d3d/sm14/NormalColorPal.pso      31.8% [   210/   308] Deflate
+Adding shaders/d3d/sm14/NormalColorPalInv.pso   32.7% [   237/   352] Deflate
+Adding shaders/d3d/sm14/RedToAlpha.pso          21.7% [   166/   212] Deflate
+Adding shaders/d3d/sm14/RedToAlphaInv.pso       25.0% [   192/   256] Deflate
+Adding shaders/d3d/sm14/SpecialColormap.pso     24.6% [   208/   276] Deflate
+Adding shaders/d3d/sm14/SpecialColormapPal.pso  33.2% [   259/   388] Deflate
+Adding shaders/d3d/sm14/VertexColor.pso         13.8% [   100/   116] Deflate
+Adding shaders/d3d/sm14/build.bat               85.3% [   286/  1952] Deflate
+Adding shaders/d3d/sm20/BurnWipe.pso            32.3% [   203/   300] Deflate
+Adding shaders/d3d/sm20/GammaCorrection.pso     29.3% [   232/   328] Deflate
+Adding shaders/d3d/sm20/InGameColormap.pso      28.1% [   184/   256] Deflate
+Adding shaders/d3d/sm20/InGameColormapDesat.pso 34.3% [   255/   388] Deflate
+Adding shaders/d3d/sm20/InGameColormapInv.pso   31.0% [   218/   316] Deflate
+Adding shaders/d3d/sm20/InGameColormapInvDesat.pso 35.4% [   261/   404] Deflate
+Adding shaders/d3d/sm20/InGameColormapPal.pso   36.9% [   250/   396] Deflate
+Adding shaders/d3d/sm20/InGameColormapPalDesat.pso 39.8% [   308/   512] Deflate
+Adding shaders/d3d/sm20/InGameColormapPalInv.pso 36.6% [   279/   440] Deflate
+Adding shaders/d3d/sm20/InGameColormapPalInvDesat.pso 40.3% [   315/   528] Deflate
+Adding shaders/d3d/sm20/NormalColor.pso         27.4% [   183/   252] Deflate
+Adding shaders/d3d/sm20/NormalColorInv.pso      29.5% [   220/   312] Deflate
+Adding shaders/d3d/sm20/NormalColorPal.pso      36.0% [   251/   392] Deflate
+Adding shaders/d3d/sm20/NormalColorPalInv.pso   36.2% [   278/   436] Deflate
+Adding shaders/d3d/sm20/RedToAlpha.pso          28.3% [   195/   272] Deflate
+Adding shaders/d3d/sm20/RedToAlphaInv.pso       32.0% [   223/   328] Deflate
+Adding shaders/d3d/sm20/SpecialColormap.pso     33.2% [   243/   364] Deflate
+Adding shaders/d3d/sm20/SpecialColormapPal.pso  37.7% [   304/   488] Deflate
+Adding shaders/d3d/sm20/VertexColor.pso         13.7% [   107/   124] Deflate
+Adding shaders/d3d/sm20/build.bat               84.3% [   279/  1781] Deflate
+Adding shaders/d3d/sm30/BurnWipe.pso            31.0% [   207/   300] Deflate
+Adding shaders/d3d/sm30/GammaCorrection.pso     30.5% [   228/   328] Deflate
+Adding shaders/d3d/sm30/InGameColormap.pso      23.8% [   186/   244] Deflate
+Adding shaders/d3d/sm30/InGameColormapDesat.pso 30.6% [   261/   376] Deflate
+Adding shaders/d3d/sm30/InGameColormapInv.pso   27.3% [   221/   304] Deflate
+Adding shaders/d3d/sm30/InGameColormapInvDesat.pso 32.9% [   263/   392] Deflate
+Adding shaders/d3d/sm30/InGameColormapPal.pso   34.4% [   252/   384] Deflate
+Adding shaders/d3d/sm30/InGameColormapPalDesat.pso 37.0% [   315/   500] Deflate
+Adding shaders/d3d/sm30/InGameColormapPalInv.pso 34.6% [   280/   428] Deflate
+Adding shaders/d3d/sm30/InGameColormapPalInvDesat.pso 38.4% [   318/   516] Deflate
+Adding shaders/d3d/sm30/NormalColor.pso         23.3% [   184/   240] Deflate
+Adding shaders/d3d/sm30/NormalColorInv.pso      28.7% [   214/   300] Deflate
+Adding shaders/d3d/sm30/NormalColorPal.pso      34.2% [   250/   380] Deflate
+Adding shaders/d3d/sm30/NormalColorPalInv.pso   34.7% [   277/   424] Deflate
+Adding shaders/d3d/sm30/RedToAlpha.pso          22.9% [   185/   240] Deflate
+Adding shaders/d3d/sm30/RedToAlphaInv.pso       28.7% [   214/   300] Deflate
+Adding shaders/d3d/sm30/SpecialColormap.pso     32.1% [   239/   352] Deflate
+Adding shaders/d3d/sm30/SpecialColormapPal.pso  36.6% [   302/   476] Deflate
+Adding shaders/d3d/sm30/VertexColor.pso         11.3% [   110/   124] Deflate
+Adding shaders/d3d/sm30/build.bat               84.4% [   278/  1781] Deflate
+Adding sounds/DSDGACT.flac                       0.0% [  4382/  4382] Stored
+Adding sounds/DSDGATK.flac                       0.0% [  2937/  2937] Stored
+Adding sounds/DSDGDTH.flac                       0.7% [ 14603/ 14703] Deflate
+Adding sounds/DSDGPAIN.flac                      0.0% [  1679/  1679] Stored
+Adding sounds/DSDGSIT.flac                       0.0% [  1656/  1656] Stored
+Adding sounds/dsempty.lmp                        0.0% [    12/    12] Stored
+Adding sounds/dsquake.flac                       6.4% [  5531/  5912] Deflate
+Adding sounds/dssecret.flac                      0.1% [ 13992/ 14010] Deflate
+Adding sounds/icebrk1a.flac                      0.0% [ 13153/ 13158] Deflate
+Adding sounds/icedth1.flac                       1.0% [  9343/  9434] Deflate
+Adding sounds/railgf1.flac                       0.9% [ 15180/ 15322] Deflate
+Adding sounds/spark1.flac                        0.0% [  1538/  1538] Stored
+Adding sounds/spark2.flac                        0.4% [  5127/  5147] Deflate
+Adding sounds/spark3.flac                        0.0% [  2098/  2098] Stored
+Adding sprites/AFLYA0.png                        7.2% [   103/   111] Deflate
+Adding sprites/AFLYB0.png                        7.4% [    88/    95] Deflate
+Adding sprites/AFLYC0.png                        7.2% [   103/   111] Deflate
+Adding sprites/AFLYD0.png                        6.2% [   105/   112] Deflate
+Adding sprites/GWANA0.png                        0.6% [   313/   315] Deflate
+Adding sprites/PLS1A0.png                        1.2% [   325/   329] Deflate
+Adding sprites/PLS1B0.png                        0.0% [   331/   331] Stored
+Adding sprites/PLS1C0.png                        1.2% [   325/   329] Deflate
+Adding sprites/PLS1D0.png                        0.0% [   331/   331] Stored
+Adding sprites/PLS1E0.png                        0.0% [   842/   842] Stored
+Adding sprites/PLS1F0.png                        0.0% [   842/   842] Stored
+Adding sprites/PLS1G0.png                        0.0% [   575/   575] Stored
+Adding sprites/PLS2A0.png                        2.9% [   264/   272] Deflate
+Adding sprites/PLS2B0.png                        4.6% [   248/   260] Deflate
+Adding sprites/PLS2C0.png                        2.4% [   285/   292] Deflate
+Adding sprites/PLS2D0.png                        2.8% [   243/   250] Deflate
+Adding sprites/PLS2E0.png                        1.5% [   263/   267] Deflate
+Adding sprites/amrka0.png                        5.1% [   222/   234] Deflate
+Adding sprites/dogs/DOGSA1.png                   0.0% [   416/   416] Stored
+Adding sprites/dogs/DOGSA2A8.png                 0.0% [   466/   466] Stored
+Adding sprites/dogs/DOGSA3A7.png                 0.0% [   479/   479] Stored
+Adding sprites/dogs/DOGSA4A6.png                 0.0% [   451/   451] Stored
+Adding sprites/dogs/DOGSA5.png                   1.0% [   383/   387] Deflate
+Adding sprites/dogs/DOGSB1.png                   0.0% [   408/   408] Stored
+Adding sprites/dogs/DOGSB2B8.png                 0.0% [   475/   475] Stored
+Adding sprites/dogs/DOGSB3B7.png                 0.0% [   484/   484] Stored
+Adding sprites/dogs/DOGSB4B6.png                 0.0% [   445/   445] Stored
+Adding sprites/dogs/DOGSB5.png                   0.5% [   403/   405] Deflate
+Adding sprites/dogs/DOGSC1.png                   0.0% [   362/   362] Stored
+Adding sprites/dogs/DOGSC2C8.png                 0.0% [   481/   481] Stored
+Adding sprites/dogs/DOGSC3C7.png                 0.0% [   504/   504] Stored
+Adding sprites/dogs/DOGSC4C6.png                 0.0% [   456/   456] Stored
+Adding sprites/dogs/DOGSC5.png                   0.0% [   391/   391] Stored
+Adding sprites/dogs/DOGSD1.png                   0.5% [   391/   393] Deflate
+Adding sprites/dogs/DOGSD2D8.png                 0.0% [   462/   462] Stored
+Adding sprites/dogs/DOGSD3D7.png                 0.0% [   495/   495] Stored
+Adding sprites/dogs/DOGSD4D6.png                 0.0% [   445/   445] Stored
+Adding sprites/dogs/DOGSD5.png                   0.8% [   364/   367] Deflate
+Adding sprites/dogs/DOGSE1.png                   0.0% [   416/   416] Stored
+Adding sprites/dogs/DOGSE2.png                   0.0% [   465/   465] Stored
+Adding sprites/dogs/DOGSE3.png                   0.0% [   480/   480] Stored
+Adding sprites/dogs/DOGSE4.png                   0.0% [   452/   452] Stored
+Adding sprites/dogs/DOGSE5.png                   1.0% [   383/   387] Deflate
+Adding sprites/dogs/DOGSE6.png                   0.0% [   483/   483] Stored
+Adding sprites/dogs/DOGSE7.png                   0.0% [   511/   511] Stored
+Adding sprites/dogs/DOGSE8.png                   0.4% [   470/   472] Deflate
+Adding sprites/dogs/DOGSF1.png                   0.0% [   458/   458] Stored
+Adding sprites/dogs/DOGSF2.png                   0.0% [   475/   475] Stored
+Adding sprites/dogs/DOGSF3.png                   0.0% [   484/   484] Stored
+Adding sprites/dogs/DOGSF4.png                   0.0% [   445/   445] Stored
+Adding sprites/dogs/DOGSF5.png                   0.0% [   407/   407] Stored
+Adding sprites/dogs/DOGSF6.png                   0.0% [   466/   466] Stored
+Adding sprites/dogs/DOGSF7.png                   0.4% [   482/   484] Deflate
+Adding sprites/dogs/DOGSF8.png                   0.0% [   431/   431] Stored
+Adding sprites/dogs/DOGSG1.png                   0.0% [   511/   511] Stored
+Adding sprites/dogs/DOGSG2.png                   0.0% [   482/   482] Stored
+Adding sprites/dogs/DOGSG3.png                   0.0% [   505/   505] Stored
+Adding sprites/dogs/DOGSG4.png                   0.0% [   457/   457] Stored
+Adding sprites/dogs/DOGSG5.png                   0.0% [   391/   391] Stored
+Adding sprites/dogs/DOGSG6.png                   0.0% [   464/   464] Stored
+Adding sprites/dogs/DOGSG7.png                   0.0% [   525/   525] Stored
+Adding sprites/dogs/DOGSG8.png                   0.0% [   467/   467] Stored
+Adding sprites/dogs/DOGSH1.png                   0.0% [   510/   510] Stored
+Adding sprites/dogs/DOGSH2.png                   0.0% [   462/   462] Stored
+Adding sprites/dogs/DOGSH3.png                   0.0% [   495/   495] Stored
+Adding sprites/dogs/DOGSH4.png                   0.0% [   445/   445] Stored
+Adding sprites/dogs/DOGSH5.png                   0.5% [   366/   368] Deflate
+Adding sprites/dogs/DOGSH6.png                   0.0% [   439/   439] Stored
+Adding sprites/dogs/DOGSH7.png                   0.0% [   479/   479] Stored
+Adding sprites/dogs/DOGSH8.png                   0.0% [   457/   457] Stored
+Adding sprites/dogs/DOGSI0.png                   0.0% [   532/   532] Stored
+Adding sprites/dogs/DOGSJ0.png                   0.0% [   573/   573] Stored
+Adding sprites/dogs/DOGSK0.png                   0.0% [   574/   574] Stored
+Adding sprites/dogs/DOGSL0.png                   0.0% [   584/   584] Stored
+Adding sprites/dogs/DOGSM0.png                   0.0% [   583/   583] Stored
+Adding sprites/dogs/DOGSN0.png                   0.0% [   410/   410] Stored
+Adding sprites/iceca0.png                        4.7% [   184/   193] Deflate
+Adding sprites/icecb0.png                        5.3% [   179/   189] Deflate
+Adding sprites/icecc0.png                        5.2% [   147/   155] Deflate
+Adding sprites/icecd0.png                       11.9% [   104/   118] Deflate
+Adding sprites/minza0.png                        0.0% [   848/   848] Stored
+Adding sprites/pista0.png                        1.7% [   292/   297] Deflate
+Adding sprites/plyc/plyca1.lmp                  30.4% [   642/   923] Deflate
+Adding sprites/plyc/plyca2a8.lmp                34.5% [   796/  1216] Deflate
+Adding sprites/plyc/plyca3a7.lmp                34.8% [   909/  1395] Deflate
+Adding sprites/plyc/plyca4a6.lmp                34.5% [   739/  1129] Deflate
+Adding sprites/plyc/plyca5.lmp                  34.0% [   529/   802] Deflate
+Adding sprites/plyc/plycb1.lmp                  31.1% [   653/   948] Deflate
+Adding sprites/plyc/plycb2b8.lmp                35.6% [   791/  1228] Deflate
+Adding sprites/plyc/plycb3b7.lmp                34.5% [   908/  1386] Deflate
+Adding sprites/plyc/plycb4b6.lmp                34.3% [   748/  1138] Deflate
+Adding sprites/plyc/plycb5.lmp                  32.1% [   541/   797] Deflate
+Adding sprites/plyc/plycc1.lmp                  30.4% [   639/   918] Deflate
+Adding sprites/plyc/plycc2c8.lmp                35.0% [   794/  1222] Deflate
+Adding sprites/plyc/plycc3c7.lmp                34.4% [   910/  1387] Deflate
+Adding sprites/plyc/plycc4c6.lmp                34.7% [   738/  1131] Deflate
+Adding sprites/plyc/plycc5.lmp                  33.2% [   534/   799] Deflate
+Adding sprites/plyc/plycd1.lmp                  31.1% [   653/   948] Deflate
+Adding sprites/plyc/plycd2d8.lmp                35.6% [   791/  1228] Deflate
+Adding sprites/plyc/plycd3d7.lmp                34.5% [   908/  1386] Deflate
+Adding sprites/plyc/plycd4d6.lmp                34.3% [   748/  1138] Deflate
+Adding sprites/plyc/plycd5.lmp                  32.1% [   541/   797] Deflate
+Adding sprites/plyc/plyce1.lmp                  34.7% [   643/   984] Deflate
+Adding sprites/plyc/plyce2e8.lmp                34.4% [   786/  1198] Deflate
+Adding sprites/plyc/plyce3e7.lmp                34.6% [   922/  1410] Deflate
+Adding sprites/plyc/plyce4e6.lmp                36.0% [   723/  1129] Deflate
+Adding sprites/plyc/plyce5.lmp                  32.6% [   571/   847] Deflate
+Adding sprites/plyc/plycf1.lmp                  28.0% [   708/   984] Deflate
+Adding sprites/plyc/plycf2f8.lmp                31.6% [   873/  1276] Deflate
+Adding sprites/plyc/plycf3f7.lmp                34.5% [   977/  1492] Deflate
+Adding sprites/plyc/plycf4f6.lmp                35.7% [   777/  1208] Deflate
+Adding sprites/plyc/plycf5.lmp                  31.9% [   577/   847] Deflate
+Adding sprites/plyc/plycg1.lmp                  34.9% [   645/   991] Deflate
+Adding sprites/plyc/plycg2g8.lmp                35.1% [   776/  1196] Deflate
+Adding sprites/plyc/plycg3g7.lmp                35.2% [   916/  1413] Deflate
+Adding sprites/plyc/plycg4g6.lmp                36.2% [   723/  1133] Deflate
+Adding sprites/plyc/plycg5.lmp                  32.9% [   556/   829] Deflate
+Adding sprites/plyc/plych0.lmp                  25.3% [   932/  1248] Deflate
+Adding sprites/plyc/plyci0.lmp                  23.0% [   804/  1044] Deflate
+Adding sprites/plyc/plycj0.lmp                  25.6% [   710/   954] Deflate
+Adding sprites/plyc/plyck0.lmp                  30.5% [   684/   984] Deflate
+Adding sprites/plyc/plycl0.lmp                  33.1% [   644/   962] Deflate
+Adding sprites/plyc/plycm0.lmp                  32.7% [   650/   966] Deflate
+Adding sprites/plyc/plycn0.lmp                  33.2% [   649/   971] Deflate
+Adding sprites/plyc/plyco0.lmp                  26.9% [   923/  1262] Deflate
+Adding sprites/plyc/plycp0.lmp                  27.8% [  1070/  1481] Deflate
+Adding sprites/plyc/plycq0.lmp                  31.0% [  1299/  1883] Deflate
+Adding sprites/plyc/plycr0.lmp                  33.9% [  1185/  1794] Deflate
+Adding sprites/plyc/plycs0.lmp                  33.3% [  1183/  1773] Deflate
+Adding sprites/plyc/plyct0.lmp                  34.6% [  1050/  1605] Deflate
+Adding sprites/plyc/plycu0.lmp                  33.1% [   990/  1480] Deflate
+Adding sprites/plyc/plycv0.lmp                  34.0% [   914/  1384] Deflate
+Adding sprites/plyc/plycw0.lmp                  33.8% [   903/  1364] Deflate
+Adding sprites/rsmka0.png                        0.0% [   376/   376] Stored
+Adding sprites/rsmkb0.png                        0.0% [   388/   388] Stored
+Adding sprites/rsmkc0.png                        0.0% [   550/   550] Stored
+Adding sprites/rsmkd0.png                        0.0% [   380/   380] Stored
+Adding sprites/rsmke0.png                        1.6% [   251/   255] Deflate
+Adding sprites/sgrna1.png                        5.4% [   176/   186] Deflate
+Adding sprites/sgrna5.png                        4.4% [   215/   225] Deflate
+Adding sprites/sgrna6a4.png                      3.4% [   258/   267] Deflate
+Adding sprites/sgrna7a3.png                      4.2% [   184/   192] Deflate
+Adding sprites/sgrna8a2.png                      3.5% [   191/   198] Deflate
+Adding sprites/spkra0.png                        0.0% [   525/   525] Stored
+Adding sprites/tlgla0.png                        6.6% [   142/   152] Deflate
+Adding sprites/tlglb0.png                        6.6% [   142/   152] Deflate
+Adding sprites/tlglc0.png                        6.6% [   142/   152] Deflate
+Adding sprites/tlgld0.png                        6.6% [   142/   152] Deflate
+Adding sprites/tlgle0.png                        6.6% [   142/   152] Deflate
+Adding sprites/tnt1a0.png                       15.4% [    11/    13] Deflate
+Adding sprites/unkna0.png                        4.1% [   213/   222] Deflate
+Adding textures/-noflat-.png                     5.2% [    91/    96] Deflate
+Adding xlat/base.txt                            79.9% [  4585/ 22804] Deflate
+Adding xlat/defines.i                           65.6% [  1619/  4709] Deflate
+Adding xlat/doom.txt                            62.2% [   485/  1284] Deflate
+Adding xlat/doom_base.txt                       51.5% [    97/   200] Deflate
+Adding xlat/eternity.txt                        70.3% [  2269/  7633] Deflate
+Adding xlat/heretic.txt                         68.9% [   832/  2673] Deflate
+Adding xlat/heretic_base.txt                    15.2% [    89/   105] Deflate
+Adding xlat/strife.txt                          77.9% [  3216/ 14549] Deflate
+Adding xlat/strife_base.txt                     40.9% [   110/   186] Deflate
+Adding althudcf.txt                             10.0% [    63/    70] Deflate
+Adding animated.lmp                             66.3% [   489/  1450] Deflate
+Adding animdefs.txt                             81.9% [  2133/ 11793] Deflate
+Adding compatibility.txt                        55.8% [  5864/ 13259] Deflate
+Adding confont.lmp                              64.7% [  3640/ 10302] Deflate
+Adding dbigfont.lmp                             45.6% [  3630/  6671] Deflate
+Adding decaldef.txt                             84.2% [  2971/ 18828] Deflate
+Adding decorate.txt                             84.3% [  1067/  6791] Deflate
+Adding defbinds.txt                             54.1% [   840/  1831] Deflate
+Adding dehsupp.txt                              70.9% [  8047/ 27639] Deflate
+Adding etc.h.txt                                51.5% [   238/   491] Deflate
+Adding fontdefs.txt                             54.2% [   474/  1036] Deflate
+Adding in_epi1.txt                              67.9% [   273/   850] Deflate
+Adding in_epi2.txt                              66.1% [   348/  1026] Deflate
+Adding in_epi3.txt                              61.2% [   233/   601] Deflate
+Adding in_htc1.txt                              29.8% [   144/   205] Deflate
+Adding in_htc2.txt                              29.3% [   147/   208] Deflate
+Adding in_htc3.txt                              29.3% [   145/   205] Deflate
+Adding indexfont                                58.9% [   127/   309] Deflate
+Adding iwadinfo.txt                             80.9% [  1665/  8695] Deflate
+Adding language.eng                             55.8% [   303/   686] Deflate
+Adding language.enu                             64.8% [ 24564/ 69692] Deflate
+Adding language.fr                              64.6% [ 21397/ 60400] Deflate
+Adding language.ita                             63.9% [ 16479/ 45670] Deflate
+Adding language.ptb                             64.0% [ 25124/ 69722] Deflate
+Adding lockdefs.txt                             82.9% [  1275/  7464] Deflate
+Adding menudef.txt                              75.3% [ 12030/ 48663] Deflate
+Adding netnotch.dat                             18.8% [    26/    32] Deflate
+Adding notch.dat                                40.8% [   109/   184] Deflate
+Adding reverbs.txt                              88.7% [  3689/ 32586] Deflate
+Adding sbarinfo.txt                             55.3% [   220/   492] Deflate
+Adding sbigfont.lmp                             60.5% [  2982/  7546] Deflate
+Adding sndinfo.txt                              63.1% [   802/  2175] Deflate
+Adding sndseq.txt                               81.6% [  1007/  5459] Deflate
+Adding spaldoom.lmp                             20.2% [   613/   768] Deflate
+Adding spalhtic.lmp                              0.0% [   768/   768] Stored
+Adding teaminfo.txt                             69.7% [   165/   544] Deflate
+Adding terrain.txt                              76.0% [   797/  3322] Deflate
+Adding textcolors.txt                           67.0% [   949/  2876] Deflate
+Adding textures.txt                             81.7% [   292/  1594] Deflate
+Adding things.h.txt                             70.1% [  1506/  5029] Deflate
+Adding vga-rom-font.16                          67.1% [  1349/  4096] Deflate
+Adding x11r6rgb.txt                             72.6% [  4967/ 18135] Deflate
+Adding xhairs.txt                               24.1% [    60/    79] Deflate
+/home/waleed/mypractice/doomncp/build/ViZDoom/bin/vizdoom.pk3 contains 583 files (updated 583)
+[100%] Built target pk3

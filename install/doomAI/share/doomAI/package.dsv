@@ -1,0 +1,9 @@
+source;share/doomAI/hook/pythonpath.ps1
+source;share/doomAI/hook/pythonpath.dsv
+source;share/doomAI/hook/pythonpath.sh
+source;share/doomAI/hook/ament_prefix_path.ps1
+source;share/doomAI/hook/ament_prefix_path.dsv
+source;share/doomAI/hook/ament_prefix_path.sh
+source;../../build/doomAI/share/doomAI/hook/pythonpath_develop.ps1
+source;../../build/doomAI/share/doomAI/hook/pythonpath_develop.dsv
+source;../../build/doomAI/share/doomAI/hook/pythonpath_develop.sh

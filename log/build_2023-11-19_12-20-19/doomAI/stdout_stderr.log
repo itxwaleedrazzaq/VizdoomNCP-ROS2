@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating doomAI.egg-info
+writing doomAI.egg-info/PKG-INFO
+writing dependency_links to doomAI.egg-info/dependency_links.txt
+writing entry points to doomAI.egg-info/entry_points.txt
+writing requirements to doomAI.egg-info/requires.txt
+writing top-level names to doomAI.egg-info/top_level.txt
+writing manifest file 'doomAI.egg-info/SOURCES.txt'
+reading manifest file 'doomAI.egg-info/SOURCES.txt'
+writing manifest file 'doomAI.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/waleed/mypractice/doomncp/install/doomAI/lib/python3.8/site-packages/doomAI.egg-link (link to .)
+
+Installed /home/waleed/mypractice/doomncp/build/doomAI
+running install_data
+creating /home/waleed/mypractice/doomncp/install/doomAI/share/ament_index
+creating /home/waleed/mypractice/doomncp/install/doomAI/share/ament_index/resource_index
+creating /home/waleed/mypractice/doomncp/install/doomAI/share/ament_index/resource_index/packages
+copying resource/doomAI -> /home/waleed/mypractice/doomncp/install/doomAI/share/ament_index/resource_index/packages
+copying package.xml -> /home/waleed/mypractice/doomncp/install/doomAI/share/doomAI

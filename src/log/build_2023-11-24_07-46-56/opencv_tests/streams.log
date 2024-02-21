@@ -1,0 +1,19 @@
+[19.039s] Invoking command in '/home/waleed/mypractice/doomncp/src/build/opencv_tests': AMENT_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waleed/mypractice/doomncp/src/build/opencv_tests/prefix_override:/home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/python3.8/site-packages:/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/waleed/mypractice/doomncp/src/build/opencv_tests/build --no-deps install_data
+[22.726s] running develop
+[24.376s] running egg_info
+[24.377s] writing opencv_tests.egg-info/PKG-INFO
+[24.377s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[24.378s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[24.378s] writing requirements to opencv_tests.egg-info/requires.txt
+[24.379s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[24.387s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[24.395s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[24.419s] running build_ext
+[24.420s] Creating /home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/python3.8/site-packages/opencv-tests.egg-link (link to .)
+[24.421s] Installing broadcast script to /home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/opencv_tests
+[24.422s] Installing rosfacedetect script to /home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/opencv_tests
+[24.423s] Installing source script to /home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/opencv_tests
+[24.423s] 
+[24.424s] Installed /home/waleed/mypractice/doomncp/src/build/opencv_tests
+[24.425s] running install_data
+[25.364s] Invoked command in '/home/waleed/mypractice/doomncp/src/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waleed/mypractice/doomncp/src/build/opencv_tests/prefix_override:/home/waleed/mypractice/doomncp/src/install/opencv_tests/lib/python3.8/site-packages:/home/waleed/mypractice/doomncp/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/waleed/mypractice/doomncp/src/build/opencv_tests/build --no-deps install_data

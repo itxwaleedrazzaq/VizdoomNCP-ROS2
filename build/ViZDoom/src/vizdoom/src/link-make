@@ -1,0 +1,1 @@
+if [ ! -e /home/waleed/mypractice/doomncp/build/ViZDoom/bin/vizdoom ]; then ln -sf /home/waleed/mypractice/doomncp/build/ViZDoom/src/vizdoom/src/vizdoom /home/waleed/mypractice/doomncp/build/ViZDoom/bin/vizdoom; fi

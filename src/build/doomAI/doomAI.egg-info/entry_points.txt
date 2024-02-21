@@ -1,0 +1,5 @@
+[console_scripts]
+vizai_node = doomAI.vizdoom_ai:main
+vizsim_node = doomAI.vizdoom_env:main
+vizvisual_node = doomAI.vizdoom_visual:main
+

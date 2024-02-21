@@ -1,0 +1,117 @@
+[13.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[13.168s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f37d3071c10>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f37d3071c10>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f37d2c0d070>)
+[13.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[13.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[13.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[13.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[13.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[13.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[13.714s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/waleed/mypractice/doomncp/src/doomAI/doomAI'
+[13.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[13.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[13.755s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extensions ['ignore', 'ignore_ament_install']
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'ignore'
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'ignore_ament_install'
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extensions ['colcon_pkg']
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'colcon_pkg'
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extensions ['colcon_meta']
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'colcon_meta'
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extensions ['ros']
+[13.756s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'ros'
+[13.757s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extensions ['cmake', 'python']
+[13.757s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'cmake'
+[13.830s] Level 1:colcon.colcon_core.package_identification:_identify(ViZDoom) by extension 'python'
+[13.830s] DEBUG:colcon.colcon_core.package_identification:Package 'ViZDoom' with type 'cmake' and name 'ViZDoom'
+[13.830s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[13.830s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[13.831s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[13.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[13.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[13.834s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[13.835s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[13.836s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[13.836s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ignore'
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ignore_ament_install'
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['colcon_pkg']
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'colcon_pkg'
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['colcon_meta']
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'colcon_meta'
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['ros']
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ros'
+[13.837s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['cmake', 'python']
+[13.838s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'cmake'
+[13.838s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'python'
+[13.838s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['python_setup_py']
+[13.838s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'python_setup_py'
+[13.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[13.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[13.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[13.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[13.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[15.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[15.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[15.619s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/waleed/mypractice/doomncp/install
+[15.855s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/waleed/mypractice/ros2_practice/p1_ws/install
+[16.097s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /home/waleed/ros2_humble/install
+[16.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_args' from command line to 'None'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_target' from command line to 'None'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_clean_cache' from command line to 'False'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_clean_first' from command line to 'False'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'cmake_force_configure' from command line to 'False'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'ament_cmake_args' from command line to 'None'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'catkin_cmake_args' from command line to 'None'
+[16.681s] Level 5:colcon.colcon_core.verb:set package 'ViZDoom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[16.681s] DEBUG:colcon.colcon_core.verb:Building package 'ViZDoom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/install/ViZDoom', 'merge_install': False, 'path': '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom', 'symlink_install': True, 'test_result_base': None}
+[16.920s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[17.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[17.131s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom'
+[17.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[17.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom': /home/waleed/.local/bin/cmake /home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom -DCMAKE_INSTALL_PREFIX=/home/waleed/mypractice/doomncp/src/doomAI/doomAI/install/ViZDoom
+[42.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom' returned '0': /home/waleed/.local/bin/cmake /home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom -DCMAKE_INSTALL_PREFIX=/home/waleed/mypractice/doomncp/src/doomAI/doomAI/install/ViZDoom
+[42.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom': /home/waleed/.local/bin/cmake --build /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom -- -j6 -l6

@@ -1,0 +1,1323 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 5.15.0-89-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/3.27.7/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3905f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3905f.dir/build.make CMakeFiles/cmTC_3905f.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x'
+        Building C object CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -c /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqCL9bO.s
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o /tmp/ccqCL9bO.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_3905f
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3905f.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -o cmTC_3905f 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3905f' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0467Hc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3905f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3905f' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3905f/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_3905f.dir/build.make CMakeFiles/cmTC_3905f.dir/build]
+        ignore line: [make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-HDbN1x']
+        ignore line: [Building C object CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -c /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqCL9bO.s]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o /tmp/ccqCL9bO.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_3905f]
+        ignore line: [/home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3905f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -o cmTC_3905f ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3905f' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0467Hc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3905f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0467Hc.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3905f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [CMakeFiles/cmTC_3905f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_75d6a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_75d6a.dir/build.make CMakeFiles/cmTC_75d6a.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz'
+        Building CXX object CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -c /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrceWNn.s
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/9
+         /usr/include/x86_64-linux-gnu/c++/9
+         /usr/include/c++/9/backward
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrceWNn.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_75d6a
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d6a.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_75d6a 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75d6a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNkIT0O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_75d6a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75d6a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/9]
+          add: [/usr/include/x86_64-linux-gnu/c++/9]
+          add: [/usr/include/c++/9/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+        collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_75d6a/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_75d6a.dir/build.make CMakeFiles/cmTC_75d6a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-f62Ziz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -c /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrceWNn.s]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/9]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+        ignore line: [ /usr/include/c++/9/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrceWNn.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_75d6a]
+        ignore line: [/home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d6a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_75d6a ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75d6a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNkIT0O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_75d6a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNkIT0O.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_75d6a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [CMakeFiles/cmTC_75d6a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake:107 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:101 (find_package)"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8cb2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d8cb2.dir/build.make CMakeFiles/cmTC_d8cb2.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz'
+        Building C object CMakeFiles/cmTC_d8cb2.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d8cb2.dir/src.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz/src.c
+        Linking C executable cmTC_d8cb2
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8cb2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d8cb2.dir/src.c.o -o cmTC_d8cb2 
+        /usr/bin/ld: CMakeFiles/cmTC_d8cb2.dir/src.c.o: in function `main':
+        src.c:(.text+0x46): undefined reference to `pthread_create'
+        /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_d8cb2.dir/build.make:99: cmTC_d8cb2] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xgihYz'
+        make: *** [Makefile:127: cmTC_d8cb2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake:107 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:101 (find_package)"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc93a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dc93a.dir/build.make CMakeFiles/cmTC_dc93a.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy'
+        Building C object CMakeFiles/cmTC_dc93a.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_dc93a.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy/CheckFunctionExists.c
+        Linking C executable cmTC_dc93a
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc93a.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_dc93a.dir/CheckFunctionExists.c.o -o cmTC_dc93a  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_dc93a.dir/build.make:99: cmTC_dc93a] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-F7gkHy'
+        make: *** [Makefile:127: cmTC_dc93a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake:107 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:101 (find_package)"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff43f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ff43f.dir/build.make CMakeFiles/cmTC_ff43f.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC'
+        Building C object CMakeFiles/cmTC_ff43f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ff43f.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC/CheckFunctionExists.c
+        Linking C executable cmTC_ff43f
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff43f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ff43f.dir/CheckFunctionExists.c.o -o cmTC_ff43f  -lpthread 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-FjAXkC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindBZip2.cmake:93 (CHECK_SYMBOL_EXISTS)"
+      - "src/vizdoom/CMakeLists.txt:102 (find_package)"
+    checks:
+      - "Looking for BZ2_bzCompressInit"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "BZIP2_NEED_PREFIX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d302f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d302f.dir/build.make CMakeFiles/cmTC_d302f.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA'
+        Building C object CMakeFiles/cmTC_d302f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d302f.dir/CheckSymbolExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA/CheckSymbolExists.c
+        Linking C executable cmTC_d302f
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d302f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d302f.dir/CheckSymbolExists.c.o -o cmTC_d302f  /usr/lib/x86_64-linux-gnu/libbz2.so 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xjzhuA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "src/vizdoom/game-music-emu/CMakeLists.txt:27 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_ARRAY_BOUNDS"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall -Wextra -fomit-frame-pointer"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_NO_ARRAY_BOUNDS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7b83/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a7b83.dir/build.make CMakeFiles/cmTC_a7b83.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A'
+        Building CXX object CMakeFiles/cmTC_a7b83.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_NO_ARRAY_BOUNDS  -Wall -Wextra -fomit-frame-pointer    -Wno-array-bounds -o CMakeFiles/cmTC_a7b83.dir/src.cxx.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A/src.cxx
+        Linking CXX executable cmTC_a7b83
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b83.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall -Wextra -fomit-frame-pointer  CMakeFiles/cmTC_a7b83.dir/src.cxx.o -o cmTC_a7b83 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-alc30A'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "src/vizdoom/game-music-emu/CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test __LIBGME_TEST_VISIBILITY"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall -Wextra -fomit-frame-pointer -Wno-array-bounds"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "__LIBGME_TEST_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1d16/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e1d16.dir/build.make CMakeFiles/cmTC_e1d16.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA'
+        Building CXX object CMakeFiles/cmTC_e1d16.dir/src.cxx.o
+        /usr/bin/c++ -D__LIBGME_TEST_VISIBILITY  -Wall -Wextra -fomit-frame-pointer -Wno-array-bounds    -fvisibility=hidden -o CMakeFiles/cmTC_e1d16.dir/src.cxx.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA/src.cxx
+        Linking CXX executable cmTC_e1d16
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d16.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall -Wextra -fomit-frame-pointer -Wno-array-bounds  CMakeFiles/cmTC_e1d16.dir/src.cxx.o -o cmTC_e1d16 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-1puUXA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:14 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_567e3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_567e3.dir/build.make CMakeFiles/cmTC_567e3.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy'
+        Building C object CMakeFiles/cmTC_567e3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_567e3.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+        /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        Linking C executable cmTC_567e3
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_567e3.dir/link.txt --verbose=1
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_567e3.dir/CheckFunctionExists.c.o -o cmTC_567e3 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2oauxy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:15 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strndup"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_STRNDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d44fa/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d44fa.dir/build.make CMakeFiles/cmTC_d44fa.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA'
+        Building C object CMakeFiles/cmTC_d44fa.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup -o CMakeFiles/cmTC_d44fa.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strndup’; expected ‘char *(const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+        /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        Linking C executable cmTC_d44fa
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d44fa.dir/link.txt --verbose=1
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup CMakeFiles/cmTC_d44fa.dir/CheckFunctionExists.c.o -o cmTC_d44fa 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-LFeaiA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:17 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a1d9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2a1d9.dir/build.make CMakeFiles/cmTC_2a1d9.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB'
+        Building C object CMakeFiles/cmTC_2a1d9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2a1d9.dir/CheckIncludeFile.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB/CheckIncludeFile.c
+        Linking C executable cmTC_2a1d9
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a1d9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2a1d9.dir/CheckIncludeFile.c.o -o cmTC_2a1d9 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Hsw8bB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:17 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_be64a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_be64a.dir/build.make CMakeFiles/cmTC_be64a.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy'
+        Building C object CMakeFiles/cmTC_be64a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_be64a.dir/CheckIncludeFile.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy/CheckIncludeFile.c
+        Linking C executable cmTC_be64a
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be64a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_be64a.dir/CheckIncludeFile.c.o -o cmTC_be64a 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-b7PNjy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:17 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f7532/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f7532.dir/build.make CMakeFiles/cmTC_f7532.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC'
+        Building C object CMakeFiles/cmTC_f7532.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f7532.dir/CheckIncludeFile.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC/CheckIncludeFile.c
+        Linking C executable cmTC_f7532
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7532.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f7532.dir/CheckIncludeFile.c.o -o cmTC_f7532 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-elm7aC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:17 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of char"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_SIZEOF_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91bf8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_91bf8.dir/build.make CMakeFiles/cmTC_91bf8.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B'
+        Building C object CMakeFiles/cmTC_91bf8.dir/SIZEOF_CHAR.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_91bf8.dir/SIZEOF_CHAR.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B/SIZEOF_CHAR.c
+        Linking C executable cmTC_91bf8
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91bf8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_91bf8.dir/SIZEOF_CHAR.c.o -o cmTC_91bf8 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-Gvfz3B'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:18 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12184/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_12184.dir/build.make CMakeFiles/cmTC_12184.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A'
+        Building C object CMakeFiles/cmTC_12184.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_12184.dir/SIZEOF_SHORT.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A/SIZEOF_SHORT.c
+        Linking C executable cmTC_12184
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12184.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_12184.dir/SIZEOF_SHORT.c.o -o cmTC_12184 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bmoY6A'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:19 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ebcfc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ebcfc.dir/build.make CMakeFiles/cmTC_ebcfc.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC'
+        Building C object CMakeFiles/cmTC_ebcfc.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ebcfc.dir/SIZEOF_INT.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC/SIZEOF_INT.c
+        Linking C executable cmTC_ebcfc
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebcfc.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ebcfc.dir/SIZEOF_INT.c.o -o cmTC_ebcfc 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-2nqpiC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "src/vizdoom/tools/re2c/CMakeLists.txt:20 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ea28/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4ea28.dir/build.make CMakeFiles/cmTC_4ea28.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz'
+        Building C object CMakeFiles/cmTC_4ea28.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4ea28.dir/SIZEOF_LONG.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz/SIZEOF_LONG.c
+        Linking C executable cmTC_4ea28
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ea28.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4ea28.dir/SIZEOF_LONG.c.o -o cmTC_4ea28 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-E3njSz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/dumb/CMakeLists.txt:17 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for itoa"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  -Wall -Wno-pointer-sign -Wno-uninitialized -Wno-unused-but-set-variable"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "ITOA_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ceac7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ceac7.dir/build.make CMakeFiles/cmTC_ceac7.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz'
+        Building C object CMakeFiles/cmTC_ceac7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wno-pointer-sign -Wno-uninitialized -Wno-unused-but-set-variable -DCHECK_FUNCTION_EXISTS=itoa -o CMakeFiles/cmTC_ceac7.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz/CheckFunctionExists.c
+        Linking C executable cmTC_ceac7
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceac7.dir/link.txt --verbose=1
+        /usr/bin/cc   -Wall -Wno-pointer-sign -Wno-uninitialized -Wno-unused-but-set-variable -DCHECK_FUNCTION_EXISTS=itoa CMakeFiles/cmTC_ceac7.dir/CheckFunctionExists.c.o -o cmTC_ceac7 
+        /usr/bin/ld: CMakeFiles/cmTC_ceac7.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `itoa'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_ceac7.dir/build.make:99: cmTC_ceac7] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-U5zKgz'
+        make: *** [Makefile:127: cmTC_ceac7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "src/vizdoom/dumb/CMakeLists.txt:113 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test DUMB_CAN_USE_SSE"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom"
+    buildResult:
+      variable: "DUMB_CAN_USE_SSE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5cfd5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5cfd5.dir/build.make CMakeFiles/cmTC_5cfd5.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy'
+        Building CXX object CMakeFiles/cmTC_5cfd5.dir/src.cxx.o
+        /usr/bin/c++ -DDUMB_CAN_USE_SSE  -msse -o CMakeFiles/cmTC_5cfd5.dir/src.cxx.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy/src.cxx
+        Linking CXX executable cmTC_5cfd5
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cfd5.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_5cfd5.dir/src.cxx.o -o cmTC_5cfd5 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-C6ciqy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/src/CMakeLists.txt:480 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for filelength"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "FILELENGTH_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aba08/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_aba08.dir/build.make CMakeFiles/cmTC_aba08.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA'
+        Building C object CMakeFiles/cmTC_aba08.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=filelength -o CMakeFiles/cmTC_aba08.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA/CheckFunctionExists.c
+        Linking C executable cmTC_aba08
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba08.dir/link.txt --verbose=1
+        /usr/bin/cc -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=filelength CMakeFiles/cmTC_aba08.dir/CheckFunctionExists.c.o -o cmTC_aba08 
+        /usr/bin/ld: CMakeFiles/cmTC_aba08.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `filelength'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_aba08.dir/build.make:99: cmTC_aba08] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-zfQLmA'
+        make: *** [Makefile:127: cmTC_aba08/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/src/CMakeLists.txt:485 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strupr"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "STRUPR_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_150f9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_150f9.dir/build.make CMakeFiles/cmTC_150f9.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x'
+        Building C object CMakeFiles/cmTC_150f9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=strupr -o CMakeFiles/cmTC_150f9.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x/CheckFunctionExists.c
+        Linking C executable cmTC_150f9
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_150f9.dir/link.txt --verbose=1
+        /usr/bin/cc -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=strupr CMakeFiles/cmTC_150f9.dir/CheckFunctionExists.c.o -o cmTC_150f9 
+        /usr/bin/ld: CMakeFiles/cmTC_150f9.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `strupr'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_150f9.dir/build.make:99: cmTC_150f9] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-hqxt6x'
+        make: *** [Makefile:127: cmTC_150f9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/src/CMakeLists.txt:490 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for stricmp"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "STRICMP_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1c17/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c1c17.dir/build.make CMakeFiles/cmTC_c1c17.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC'
+        Building C object CMakeFiles/cmTC_c1c17.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=stricmp -o CMakeFiles/cmTC_c1c17.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC/CheckFunctionExists.c
+        Linking C executable cmTC_c1c17
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c17.dir/link.txt --verbose=1
+        /usr/bin/cc -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=stricmp CMakeFiles/cmTC_c1c17.dir/CheckFunctionExists.c.o -o cmTC_c1c17 
+        /usr/bin/ld: CMakeFiles/cmTC_c1c17.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `stricmp'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_c1c17.dir/build.make:99: cmTC_c1c17] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-MgkAuC'
+        make: *** [Makefile:127: cmTC_c1c17/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/vizdoom/src/CMakeLists.txt:495 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strnicmp"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "STRNICMP_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71493/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_71493.dir/build.make CMakeFiles/cmTC_71493.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy'
+        Building C object CMakeFiles/cmTC_71493.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=strnicmp -o CMakeFiles/cmTC_71493.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy/CheckFunctionExists.c
+        Linking C executable cmTC_71493
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71493.dir/link.txt --verbose=1
+        /usr/bin/cc -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=strnicmp CMakeFiles/cmTC_71493.dir/CheckFunctionExists.c.o -o cmTC_71493 
+        /usr/bin/ld: CMakeFiles/cmTC_71493.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `strnicmp'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_71493.dir/build.make:99: cmTC_71493] Error 1
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-xko8fy'
+        make: *** [Makefile:127: cmTC_71493/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "src/vizdoom/src/CMakeLists.txt:510 (CHECK_LIBRARY_EXISTS)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "CLOCK_GETTIME_IN_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca3c1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ca3c1.dir/build.make CMakeFiles/cmTC_ca3c1.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz'
+        Building C object CMakeFiles/cmTC_ca3c1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_ca3c1.dir/CheckFunctionExists.c.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz/CheckFunctionExists.c
+        Linking C executable cmTC_ca3c1
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3c1.dir/link.txt --verbose=1
+        /usr/bin/cc -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result   -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_ca3c1.dir/CheckFunctionExists.c.o -o cmTC_ca3c1  -lrt 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-bRbuUz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/waleed/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/vizdoom/src/CMakeLists.txt:522 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAS_VA_COPY"
+    directories:
+      source: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z"
+      binary: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result  "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/src/vizdoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom;/home/waleed/mypractice/doomncp/src/doomAI/doomAI/ViZDoom/cmake_modules"
+    buildResult:
+      variable: "HAS_VA_COPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z'
+        
+        Run Build Command(s): /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d9b9d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d9b9d.dir/build.make CMakeFiles/cmTC_d9b9d.dir/build
+        make[1]: Entering directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z'
+        Building CXX object CMakeFiles/cmTC_d9b9d.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_VA_COPY  -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result    -o CMakeFiles/cmTC_d9b9d.dir/src.cxx.o -c /home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z/src.cxx
+        Linking CXX executable cmTC_d9b9d
+        /home/waleed/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9b9d.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result    CMakeFiles/cmTC_d9b9d.dir/src.cxx.o -o cmTC_d9b9d 
+        make[1]: Leaving directory '/home/waleed/mypractice/doomncp/src/doomAI/doomAI/build/ViZDoom/CMakeFiles/CMakeScratch/TryCompile-EcAs2z'
+        
+      exitCode: 0
+...
